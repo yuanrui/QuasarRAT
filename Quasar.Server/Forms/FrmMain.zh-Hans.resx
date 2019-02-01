@@ -117,25 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="contextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>223, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 120</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip.Name" xml:space="preserve">
-    <value>contextMenuStrip</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="systemToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="systemToolStripMenuItem.Text" xml:space="preserve">
-    <value>Administration</value>
-  </data>
   <data name="systemInformationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
@@ -154,12 +136,6 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="systemInformationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="systemInformationToolStripMenuItem.Text" xml:space="preserve">
-    <value>System Information</value>
-  </data>
   <data name="fileManagerToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
@@ -175,24 +151,6 @@
         je8KZUb37y60c51/A43RGzKdjzfnAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="fileManagerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="fileManagerToolStripMenuItem.Text" xml:space="preserve">
-    <value>File Manager</value>
-  </data>
-  <data name="startupManagerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="startupManagerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Startup Manager</value>
-  </data>
-  <data name="taskManagerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="taskManagerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Task Manager</value>
-  </data>
   <data name="remoteShellToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -203,81 +161,6 @@
         P92JJ1D7GlJKT/JXJd8Et9Cmh1KKJfEqMH0PrTVL4l2iMQYERzIKDk6vHrmvkNZTzr3ETX5lyr4DfXVH
         aLRCsgQAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="remoteShellToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="remoteShellToolStripMenuItem.Text" xml:space="preserve">
-    <value>Remote Shell</value>
-  </data>
-  <data name="connectionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="connectionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>TCP Connections</value>
-  </data>
-  <data name="reverseProxyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="reverseProxyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Reverse Proxy</value>
-  </data>
-  <data name="registryEditorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="registryEditorToolStripMenuItem.Text" xml:space="preserve">
-    <value>Registry Editor</value>
-  </data>
-  <data name="remoteExecuteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="remoteExecuteToolStripMenuItem.Text" xml:space="preserve">
-    <value>Remote Execute</value>
-  </data>
-  <data name="localFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="localFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Local File...</value>
-  </data>
-  <data name="webFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 22</value>
-  </data>
-  <data name="webFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Web File...</value>
-  </data>
-  <data name="ctxtLine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 6</value>
-  </data>
-  <data name="actionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="actionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Actions</value>
-  </data>
-  <data name="shutdownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="shutdownToolStripMenuItem.Text" xml:space="preserve">
-    <value>Shutdown</value>
-  </data>
-  <data name="restartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="restartToolStripMenuItem.Text" xml:space="preserve">
-    <value>Restart</value>
-  </data>
-  <data name="standbyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="standbyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Standby</value>
-  </data>
-  <data name="surveillanceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="surveillanceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Monitoring</value>
   </data>
   <data name="passwordRecoveryToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -296,18 +179,6 @@
         S259oudNKrt2ijYiuZLaFP/9B2Af1JnK+Hg9AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="passwordRecoveryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="passwordRecoveryToolStripMenuItem.Text" xml:space="preserve">
-    <value>Password Recovery</value>
-  </data>
-  <data name="keyloggerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="keyloggerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Keylogger</value>
-  </data>
   <data name="remoteDesktopToolStripMenuItem2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
@@ -323,18 +194,6 @@
         YJDO+3twGzxto4GPVQ58YxuZzBvYbLbvlyEXKi8sLNyg7eD09BTj8Rij0QgnJyf6np1Fo1FMTk5ePw+5
         AGAXs7OzIpWsu+xyuWC322GxWGA2mzExMdH8p4K/9fi/sx9h9vJ6J2vz1gAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="remoteDesktopToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="remoteDesktopToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Remote Desktop</value>
-  </data>
-  <data name="userSupportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="userSupportToolStripMenuItem.Text" xml:space="preserve">
-    <value>User Support</value>
   </data>
   <data name="showMessageboxToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -354,12 +213,6 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="showMessageboxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="showMessageboxToolStripMenuItem.Text" xml:space="preserve">
-    <value>Show Messagebox</value>
-  </data>
   <data name="remoteDesktopToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
@@ -375,12 +228,6 @@
         YJDO+3twGzxto4GPVQ58YxuZzBvYbLbvlyEXKi8sLNyg7eD09BTj8Rij0QgnJyf6np1Fo1FMTk5ePw+5
         AGAXs7OzIpWsu+xyuWC322GxWGA2mzExMdH8p4K/9fi/sx9h9vJ6J2vz1gAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="remoteDesktopToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="remoteDesktopToolStripMenuItem.Text" xml:space="preserve">
-    <value>Remote Desktop</value>
   </data>
   <data name="visitWebsiteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -403,39 +250,6 @@
         wNyzn4vJIWwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="visitWebsiteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="visitWebsiteToolStripMenuItem.Text" xml:space="preserve">
-    <value>Send to Website</value>
-  </data>
-  <data name="connectionToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIaSURBVDhPpZNNaxpRGIXzD/pzsuiui1LopquuBQWF
-        IAi60I0rV4qITdIIgm21UotQTcyM0VHj6DjVqBmj41ccv5qm1A+q+y5O7x1o2sJkky7O8jznfc977w6A
-        nf+RprnZbL6p1Wo/BUFAsVgEx3FgWRbJZBLxePzD34H/AFqt1qNGoxFXFAU3N9+gTOZQlClGVKMJ1usf
-        iEajxP9n6juAJEnP6vX61+l0iuVyidqFhIpYR1m4AF+uguc/YzBUEAqFtAHEjMVioWo+/wKBmI+OAjg8
-        fI39/QP4/a/Q648QCAS0AaIoYrPZEPMc4/EYJZpaquKcF1E4r4DLl9HtXROQXxtAy1qv15jNZmTvMYpk
-        ZJrq8/ng9Xrhdrshd4fweDzaANo0BdAOhsNrkioiVxDA5crIcDzOMkV0On24XC5tAMMwKmAymWAwGKoj
-        Z7kSMlke76tv8fLjC1wRgNPp1AYkEgmsVit1/263f5fKnhXw5N1j7B7sonXVg91u1wbEYjH1fBTQkbtI
-        k5HZdAGnbB6pUw7HKQ5SS4bVatUGhMNhbLdbtcR2WwbDEjOTwwk1n2SROM7gUpJhNpu1AcFgsJZKpSDL
-        Milyjjw5XYrJI0mMn6gSaTQvOzCZTNoA+jzJyZ6TczUikQiEikhWGaqp1Eh1e/sdBoPhfsDvN06afupw
-        ONo2mw0WiwV7e3swGo3Q6/XQ6XT9ez/TQ771L10QErdXgGB3AAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="connectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="connectionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Client Management</value>
-  </data>
-  <data name="elevateClientPermissionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="elevateClientPermissionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Elevate Client Permissions</value>
-  </data>
   <data name="updateToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
@@ -452,12 +266,6 @@
         xY7K+qnA6P4Ofr/fJOkzExMTOaVSifHxcSgUCly4dxKXtYehY2+BOtOTvu9l8C+/M/lYTWqXtv3jVFPd
         dzWG/pT/Ym6JAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="updateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="updateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Update</value>
   </data>
   <data name="reconnectToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -476,12 +284,6 @@
         Ui6XT8tkMjQ0NEAqlUIikaC0dQtqjOdQ3EgtEfjwL+aff2Wy8rcDjZuxS06VbAz8Cbig4StW+Cs4AAAA
         AElFTkSuQmCC
 </value>
-  </data>
-  <data name="reconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="reconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Reconnect</value>
   </data>
   <data name="disconnectToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -502,12 +304,6 @@
         QmCC
 </value>
   </data>
-  <data name="disconnectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
-  </data>
-  <data name="disconnectToolStripMenuItem.Text" xml:space="preserve">
-    <value>Disconnect</value>
-  </data>
   <data name="uninstallToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
@@ -525,30 +321,27 @@
         H13uoYn53y3syWb5/F9I1vz6qPdLYQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="uninstallToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 22</value>
+  <data name="connectionToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIaSURBVDhPpZNNaxpRGIXzD/pzsuiui1LopquuBQWF
+        IAi60I0rV4qITdIIgm21UotQTcyM0VHj6DjVqBmj41ccv5qm1A+q+y5O7x1o2sJkky7O8jznfc977w6A
+        nf+RprnZbL6p1Wo/BUFAsVgEx3FgWRbJZBLxePzD34H/AFqt1qNGoxFXFAU3N9+gTOZQlClGVKMJ1usf
+        iEajxP9n6juAJEnP6vX61+l0iuVyidqFhIpYR1m4AF+uguc/YzBUEAqFtAHEjMVioWo+/wKBmI+OAjg8
+        fI39/QP4/a/Q648QCAS0AaIoYrPZEPMc4/EYJZpaquKcF1E4r4DLl9HtXROQXxtAy1qv15jNZmTvMYpk
+        ZJrq8/ng9Xrhdrshd4fweDzaANo0BdAOhsNrkioiVxDA5crIcDzOMkV0On24XC5tAMMwKmAymWAwGKoj
+        Z7kSMlke76tv8fLjC1wRgNPp1AYkEgmsVit1/263f5fKnhXw5N1j7B7sonXVg91u1wbEYjH1fBTQkbtI
+        k5HZdAGnbB6pUw7HKQ5SS4bVatUGhMNhbLdbtcR2WwbDEjOTwwk1n2SROM7gUpJhNpu1AcFgsJZKpSDL
+        Milyjjw5XYrJI0mMn6gSaTQvOzCZTNoA+jzJyZ6TczUikQiEikhWGaqp1Eh1e/sdBoPhfsDvN06afupw
+        ONo2mw0WiwV7e3swGo3Q6/XQ6XT9ez/TQ771L10QErdXgGB3AAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="uninstallToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uninstall</value>
-  </data>
-  <data name="lineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 6</value>
-  </data>
-  <data name="selectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
-    <value>Select All</value>
-  </data>
-  <metadata name="imgFlags.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>123, 17</value>
-  </metadata>
   <data name="imgFlags.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADY
-        sQAAAk1TRnQBSQFMAgEB+AEAAQwBCQEMAQkBEAEAAQsBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        sQAAAk1TRnQBSQFMAgEB+AEAAQgBCQEMAQkBEAEAAQsBAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAAbUBAgIAAQEBAAEIBQABQAGtGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHA
         AdwBwAEAAfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANC
         AQADOQEAAYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/
@@ -1306,12 +1099,9 @@
         Am0CFAEVARMBAQXPBvsD+QIgBfkEAgYnASEBEQMPAQ4G+QEeAQIDJwELDwABQgFNAT4HAAE+AwABKAMA
         AUADAAG1AQICAAEBAQABAQUAAagBFRYAA/9fAAH8AX8GAAH4AT8GAAH8AT8GAAH4AX8GAAH4AT8GAAH8
         AR8GAAH+AQcGAAHDAYcGAAHBAYMGAAHAAQcGAAHwAQ//AP8A/wD/AP8A/wChAAEBBwABBwcAAQEHAAEB
-        BwABAQcAAQcHAAEfBwABfwYAAQMB//8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAqAAs=
+        BwABAQcAAQcHAAEfBwABfwYAAQMB//8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wBAAAs=
 </value>
   </data>
-  <metadata name="notifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="notifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAQAEBAAAAAAIABoBAAARgAAACAgAAAAACAAqBAAAK4EAAAwMAAAAAAgAKglAABWFQAAQEAAAAAA
@@ -1849,209 +1639,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
-  </data>
-  <data name="notifyIcon.Text" xml:space="preserve">
-    <value>Quasar</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="notifyIcon.Visible" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>480, 17</value>
-  </metadata>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="statusStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 436</value>
-  </data>
-  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1022, 22</value>
-  </data>
-  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="statusStrip.Text" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
-    <value>statusStrip</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
-    <value>tableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>372, 17</value>
-  </metadata>
-  <data name="menuStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="menuStrip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="closeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
-  </data>
-  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="fIleToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="fIleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="fIleToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="builderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 21</value>
-  </data>
-  <data name="builderToolStripMenuItem.Text" xml:space="preserve">
-    <value>Builder</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 21</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 24</value>
-  </data>
-  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
-    <value>menuStrip</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
-    <value>tableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tableLayoutPanel.RowCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1022, 458</value>
-  </data>
-  <data name="tableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel.Name" xml:space="preserve">
-    <value>tableLayoutPanel</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="statusStrip" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="menuStrip" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,25,Percent,100,Absolute,22" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="listenToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 17</value>
-  </data>
-  <data name="listenToolStripStatusLabel.Text" xml:space="preserve">
-    <value>Listening: False</value>
-  </data>
-  <data name="hIP.Text" xml:space="preserve">
-    <value>IP Address</value>
-  </data>
-  <data name="hIP.Width" type="System.Int32, mscorlib">
-    <value>112</value>
-  </data>
-  <data name="hTag.Text" xml:space="preserve">
-    <value>Tag</value>
-  </data>
-  <data name="hUserPC.Text" xml:space="preserve">
-    <value>User@PC</value>
-  </data>
-  <data name="hUserPC.Width" type="System.Int32, mscorlib">
-    <value>175</value>
-  </data>
-  <data name="hVersion.Text" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="hVersion.Width" type="System.Int32, mscorlib">
-    <value>66</value>
-  </data>
-  <data name="hStatus.Text" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="hStatus.Width" type="System.Int32, mscorlib">
-    <value>78</value>
-  </data>
-  <data name="hUserStatus.Text" xml:space="preserve">
-    <value>User Status</value>
-  </data>
-  <data name="hUserStatus.Width" type="System.Int32, mscorlib">
-    <value>72</value>
-  </data>
-  <data name="hCountry.Text" xml:space="preserve">
-    <value>Country</value>
-  </data>
-  <data name="hCountry.Width" type="System.Int32, mscorlib">
-    <value>117</value>
-  </data>
-  <data name="hOS.Text" xml:space="preserve">
-    <value>Operating System</value>
-  </data>
-  <data name="hOS.Width" type="System.Int32, mscorlib">
-    <value>222</value>
-  </data>
-  <data name="hAccountType.Text" xml:space="preserve">
-    <value>Account Type</value>
-  </data>
-  <data name="hAccountType.Width" type="System.Int32, mscorlib">
-    <value>100</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>96, 96</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1022, 458</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2591,319 +2178,151 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>680, 415</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Quasar - Connected: 0</value>
+    <value>Quasar - 连接数量: 0</value>
   </data>
-  <data name="&gt;&gt;systemToolStripMenuItem.Name" xml:space="preserve">
-    <value>systemToolStripMenuItem</value>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>关于</value>
   </data>
-  <data name="&gt;&gt;systemToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="actionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>操作</value>
   </data>
-  <data name="&gt;&gt;systemInformationToolStripMenuItem.Name" xml:space="preserve">
-    <value>systemInformationToolStripMenuItem</value>
+  <data name="builderToolStripMenuItem.Text" xml:space="preserve">
+    <value>生成器</value>
   </data>
-  <data name="&gt;&gt;systemInformationToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>退出</value>
   </data>
-  <data name="&gt;&gt;fileManagerToolStripMenuItem.Name" xml:space="preserve">
-    <value>fileManagerToolStripMenuItem</value>
+  <data name="connectionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>TCP连接</value>
   </data>
-  <data name="&gt;&gt;fileManagerToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="connectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>客户端管理</value>
   </data>
-  <data name="&gt;&gt;startupManagerToolStripMenuItem.Name" xml:space="preserve">
-    <value>startupManagerToolStripMenuItem</value>
+  <data name="disconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>断开</value>
   </data>
-  <data name="&gt;&gt;startupManagerToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="elevateClientPermissionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>提升客户端权限</value>
   </data>
-  <data name="&gt;&gt;taskManagerToolStripMenuItem.Name" xml:space="preserve">
-    <value>taskManagerToolStripMenuItem</value>
+  <data name="fileManagerToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件管理</value>
   </data>
-  <data name="&gt;&gt;taskManagerToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="fIleToolStripMenuItem.Text" xml:space="preserve">
+    <value>程序</value>
   </data>
-  <data name="&gt;&gt;remoteShellToolStripMenuItem.Name" xml:space="preserve">
-    <value>remoteShellToolStripMenuItem</value>
+  <data name="hAccountType.Text" xml:space="preserve">
+    <value>账户类型</value>
   </data>
-  <data name="&gt;&gt;remoteShellToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="hCountry.Text" xml:space="preserve">
+    <value>地区</value>
   </data>
-  <data name="&gt;&gt;connectionsToolStripMenuItem.Name" xml:space="preserve">
-    <value>connectionsToolStripMenuItem</value>
+  <data name="hIP.Text" xml:space="preserve">
+    <value>IP</value>
   </data>
-  <data name="&gt;&gt;connectionsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="hOS.Text" xml:space="preserve">
+    <value>操作系统</value>
   </data>
-  <data name="&gt;&gt;reverseProxyToolStripMenuItem.Name" xml:space="preserve">
-    <value>reverseProxyToolStripMenuItem</value>
+  <data name="hStatus.Text" xml:space="preserve">
+    <value>状态</value>
   </data>
-  <data name="&gt;&gt;reverseProxyToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="hTag.Text" xml:space="preserve">
+    <value>标签</value>
   </data>
-  <data name="&gt;&gt;registryEditorToolStripMenuItem.Name" xml:space="preserve">
-    <value>registryEditorToolStripMenuItem</value>
+  <data name="hUserPC.Text" xml:space="preserve">
+    <value>用户@电脑</value>
   </data>
-  <data name="&gt;&gt;registryEditorToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="hUserStatus.Text" xml:space="preserve">
+    <value>用户状态</value>
   </data>
-  <data name="&gt;&gt;remoteExecuteToolStripMenuItem.Name" xml:space="preserve">
-    <value>remoteExecuteToolStripMenuItem</value>
+  <data name="hVersion.Text" xml:space="preserve">
+    <value>版本</value>
   </data>
-  <data name="&gt;&gt;remoteExecuteToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="keyloggerToolStripMenuItem.Text" xml:space="preserve">
+    <value>键盘记录</value>
   </data>
-  <data name="&gt;&gt;localFileToolStripMenuItem.Name" xml:space="preserve">
-    <value>localFileToolStripMenuItem</value>
+  <data name="listenToolStripStatusLabel.Text" xml:space="preserve">
+    <value>监听状态: 关闭</value>
   </data>
-  <data name="&gt;&gt;localFileToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="localFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>本地文件...</value>
   </data>
-  <data name="&gt;&gt;webFileToolStripMenuItem.Name" xml:space="preserve">
-    <value>webFileToolStripMenuItem</value>
+  <data name="notifyIcon.Text" xml:space="preserve">
+    <value>Quasar</value>
   </data>
-  <data name="&gt;&gt;webFileToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="passwordRecoveryToolStripMenuItem.Text" xml:space="preserve">
+    <value>密码破解</value>
   </data>
-  <data name="&gt;&gt;ctxtLine.Name" xml:space="preserve">
-    <value>ctxtLine</value>
+  <data name="reconnectToolStripMenuItem.Text" xml:space="preserve">
+    <value>重新连接</value>
   </data>
-  <data name="&gt;&gt;ctxtLine.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="registryEditorToolStripMenuItem.Text" xml:space="preserve">
+    <value>注册表编辑</value>
   </data>
-  <data name="&gt;&gt;actionsToolStripMenuItem.Name" xml:space="preserve">
-    <value>actionsToolStripMenuItem</value>
+  <data name="remoteDesktopToolStripMenuItem.Text" xml:space="preserve">
+    <value>远程桌面</value>
   </data>
-  <data name="&gt;&gt;actionsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="remoteDesktopToolStripMenuItem2.Text" xml:space="preserve">
+    <value>远程桌面</value>
   </data>
-  <data name="&gt;&gt;shutdownToolStripMenuItem.Name" xml:space="preserve">
-    <value>shutdownToolStripMenuItem</value>
+  <data name="remoteExecuteToolStripMenuItem.Text" xml:space="preserve">
+    <value>远程执行</value>
   </data>
-  <data name="&gt;&gt;shutdownToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="remoteShellToolStripMenuItem.Text" xml:space="preserve">
+    <value>Shell命令</value>
   </data>
-  <data name="&gt;&gt;restartToolStripMenuItem.Name" xml:space="preserve">
-    <value>restartToolStripMenuItem</value>
+  <data name="restartToolStripMenuItem.Text" xml:space="preserve">
+    <value>重启</value>
   </data>
-  <data name="&gt;&gt;restartToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="reverseProxyToolStripMenuItem.Text" xml:space="preserve">
+    <value>反向代理</value>
   </data>
-  <data name="&gt;&gt;standbyToolStripMenuItem.Name" xml:space="preserve">
-    <value>standbyToolStripMenuItem</value>
+  <data name="selectAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>选择所有</value>
   </data>
-  <data name="&gt;&gt;standbyToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>设置</value>
   </data>
-  <data name="&gt;&gt;surveillanceToolStripMenuItem.Name" xml:space="preserve">
-    <value>surveillanceToolStripMenuItem</value>
+  <data name="showMessageboxToolStripMenuItem.Text" xml:space="preserve">
+    <value>显示消息框</value>
   </data>
-  <data name="&gt;&gt;surveillanceToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="shutdownToolStripMenuItem.Text" xml:space="preserve">
+    <value>关机</value>
   </data>
-  <data name="&gt;&gt;passwordRecoveryToolStripMenuItem.Name" xml:space="preserve">
-    <value>passwordRecoveryToolStripMenuItem</value>
+  <data name="standbyToolStripMenuItem.Text" xml:space="preserve">
+    <value>待机</value>
   </data>
-  <data name="&gt;&gt;passwordRecoveryToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="startupManagerToolStripMenuItem.Text" xml:space="preserve">
+    <value>启动项管理</value>
   </data>
-  <data name="&gt;&gt;keyloggerToolStripMenuItem.Name" xml:space="preserve">
-    <value>keyloggerToolStripMenuItem</value>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>状态</value>
   </data>
-  <data name="&gt;&gt;keyloggerToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="surveillanceToolStripMenuItem.Text" xml:space="preserve">
+    <value>监控</value>
   </data>
-  <data name="&gt;&gt;remoteDesktopToolStripMenuItem2.Name" xml:space="preserve">
-    <value>remoteDesktopToolStripMenuItem2</value>
+  <data name="systemInformationToolStripMenuItem.Text" xml:space="preserve">
+    <value>系统信息</value>
   </data>
-  <data name="&gt;&gt;remoteDesktopToolStripMenuItem2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="systemToolStripMenuItem.Text" xml:space="preserve">
+    <value>管理员</value>
   </data>
-  <data name="&gt;&gt;userSupportToolStripMenuItem.Name" xml:space="preserve">
-    <value>userSupportToolStripMenuItem</value>
+  <data name="taskManagerToolStripMenuItem.Text" xml:space="preserve">
+    <value>任务管理</value>
   </data>
-  <data name="&gt;&gt;userSupportToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="uninstallToolStripMenuItem.Text" xml:space="preserve">
+    <value>卸载</value>
   </data>
-  <data name="&gt;&gt;showMessageboxToolStripMenuItem.Name" xml:space="preserve">
-    <value>showMessageboxToolStripMenuItem</value>
+  <data name="updateToolStripMenuItem.Text" xml:space="preserve">
+    <value>更新</value>
   </data>
-  <data name="&gt;&gt;showMessageboxToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="userSupportToolStripMenuItem.Text" xml:space="preserve">
+    <value>用户支持</value>
   </data>
-  <data name="&gt;&gt;remoteDesktopToolStripMenuItem.Name" xml:space="preserve">
-    <value>remoteDesktopToolStripMenuItem</value>
+  <data name="visitWebsiteToolStripMenuItem.Text" xml:space="preserve">
+    <value>发送到网站</value>
   </data>
-  <data name="&gt;&gt;remoteDesktopToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;visitWebsiteToolStripMenuItem.Name" xml:space="preserve">
-    <value>visitWebsiteToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;visitWebsiteToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;connectionToolStripMenuItem.Name" xml:space="preserve">
-    <value>connectionToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;connectionToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;elevateClientPermissionsToolStripMenuItem.Name" xml:space="preserve">
-    <value>elevateClientPermissionsToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;elevateClientPermissionsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;updateToolStripMenuItem.Name" xml:space="preserve">
-    <value>updateToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;updateToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;reconnectToolStripMenuItem.Name" xml:space="preserve">
-    <value>reconnectToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;reconnectToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;disconnectToolStripMenuItem.Name" xml:space="preserve">
-    <value>disconnectToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;disconnectToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;uninstallToolStripMenuItem.Name" xml:space="preserve">
-    <value>uninstallToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;uninstallToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lineToolStripMenuItem.Name" xml:space="preserve">
-    <value>lineToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;lineToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;selectAllToolStripMenuItem.Name" xml:space="preserve">
-    <value>selectAllToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;selectAllToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;imgFlags.Name" xml:space="preserve">
-    <value>imgFlags</value>
-  </data>
-  <data name="&gt;&gt;imgFlags.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;notifyIcon.Name" xml:space="preserve">
-    <value>notifyIcon</value>
-  </data>
-  <data name="&gt;&gt;notifyIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listenToolStripStatusLabel.Name" xml:space="preserve">
-    <value>listenToolStripStatusLabel</value>
-  </data>
-  <data name="&gt;&gt;listenToolStripStatusLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fIleToolStripMenuItem.Name" xml:space="preserve">
-    <value>fIleToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;fIleToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;closeToolStripMenuItem.Name" xml:space="preserve">
-    <value>closeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
-    <value>settingsToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;builderToolStripMenuItem.Name" xml:space="preserve">
-    <value>builderToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;builderToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
-    <value>aboutToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hIP.Name" xml:space="preserve">
-    <value>hIP</value>
-  </data>
-  <data name="&gt;&gt;hIP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hTag.Name" xml:space="preserve">
-    <value>hTag</value>
-  </data>
-  <data name="&gt;&gt;hTag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hUserPC.Name" xml:space="preserve">
-    <value>hUserPC</value>
-  </data>
-  <data name="&gt;&gt;hUserPC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hVersion.Name" xml:space="preserve">
-    <value>hVersion</value>
-  </data>
-  <data name="&gt;&gt;hVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hStatus.Name" xml:space="preserve">
-    <value>hStatus</value>
-  </data>
-  <data name="&gt;&gt;hStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hUserStatus.Name" xml:space="preserve">
-    <value>hUserStatus</value>
-  </data>
-  <data name="&gt;&gt;hUserStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hCountry.Name" xml:space="preserve">
-    <value>hCountry</value>
-  </data>
-  <data name="&gt;&gt;hCountry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hOS.Name" xml:space="preserve">
-    <value>hOS</value>
-  </data>
-  <data name="&gt;&gt;hOS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hAccountType.Name" xml:space="preserve">
-    <value>hAccountType</value>
-  </data>
-  <data name="&gt;&gt;hAccountType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmMain</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="webFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>网络文件...</value>
   </data>
 </root>

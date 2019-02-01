@@ -118,493 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 298</value>
-  </data>
-  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="btnSave.Text" xml:space="preserve">
-    <value>&amp;Save</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
-    <value>btnSave</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="lblPort.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 11</value>
-  </data>
-  <data name="lblPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 13</value>
-  </data>
-  <data name="lblPort.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblPort.Text" xml:space="preserve">
-    <value>Port to listen on:</value>
-  </data>
-  <data name="&gt;&gt;lblPort.Name" xml:space="preserve">
-    <value>lblPort</value>
-  </data>
-  <data name="&gt;&gt;lblPort.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPort.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblPort.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="ncPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 7</value>
-  </data>
-  <data name="ncPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 22</value>
-  </data>
-  <data name="ncPort.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ncPort.Name" xml:space="preserve">
-    <value>ncPort</value>
-  </data>
-  <data name="&gt;&gt;ncPort.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ncPort.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ncPort.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="chkAutoListen.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkAutoListen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 68</value>
-  </data>
-  <data name="chkAutoListen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 17</value>
-  </data>
-  <data name="chkAutoListen.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="chkAutoListen.Text" xml:space="preserve">
-    <value>Listen for new connections on startup</value>
-  </data>
-  <data name="&gt;&gt;chkAutoListen.Name" xml:space="preserve">
-    <value>chkAutoListen</value>
-  </data>
-  <data name="&gt;&gt;chkAutoListen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkAutoListen.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkAutoListen.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="chkPopup.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkPopup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 91</value>
-  </data>
-  <data name="chkPopup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 17</value>
-  </data>
-  <data name="chkPopup.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="chkPopup.Text" xml:space="preserve">
-    <value>Show popup notification on new connection</value>
-  </data>
-  <data name="&gt;&gt;chkPopup.Name" xml:space="preserve">
-    <value>chkPopup</value>
-  </data>
-  <data name="&gt;&gt;chkPopup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkPopup.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkPopup.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="btnListen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 6</value>
-  </data>
-  <data name="btnListen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
-  </data>
-  <data name="btnListen.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnListen.Text" xml:space="preserve">
-    <value>Start listening</value>
-  </data>
-  <data name="&gt;&gt;btnListen.Name" xml:space="preserve">
-    <value>btnListen</value>
-  </data>
-  <data name="&gt;&gt;btnListen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnListen.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnListen.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 298</value>
-  </data>
-  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="btnCancel.Text" xml:space="preserve">
-    <value>&amp;Cancel</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
-    <value>btnCancel</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="chkUseUpnp.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkUseUpnp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 114</value>
-  </data>
-  <data name="chkUseUpnp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 17</value>
-  </data>
-  <data name="chkUseUpnp.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="chkUseUpnp.Text" xml:space="preserve">
-    <value>Try to automatically forward the port (UPnP)</value>
-  </data>
-  <data name="&gt;&gt;chkUseUpnp.Name" xml:space="preserve">
-    <value>chkUseUpnp</value>
-  </data>
-  <data name="&gt;&gt;chkUseUpnp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkUseUpnp.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkUseUpnp.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="chkShowTooltip.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkShowTooltip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 137</value>
-  </data>
-  <data name="chkShowTooltip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 17</value>
-  </data>
-  <data name="chkShowTooltip.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="chkShowTooltip.Text" xml:space="preserve">
-    <value>Show tooltip on client with system information</value>
-  </data>
-  <data name="&gt;&gt;chkShowTooltip.Name" xml:space="preserve">
-    <value>chkShowTooltip</value>
-  </data>
-  <data name="&gt;&gt;chkShowTooltip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkShowTooltip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkShowTooltip.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="chkNoIPIntegration.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkNoIPIntegration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 177</value>
-  </data>
-  <data name="chkNoIPIntegration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 17</value>
-  </data>
-  <data name="chkNoIPIntegration.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="chkNoIPIntegration.Text" xml:space="preserve">
-    <value>Enable No-Ip.com DNS Updater</value>
-  </data>
-  <data name="&gt;&gt;chkNoIPIntegration.Name" xml:space="preserve">
-    <value>chkNoIPIntegration</value>
-  </data>
-  <data name="&gt;&gt;chkNoIPIntegration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkNoIPIntegration.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkNoIPIntegration.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="lblHost.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblHost.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lblHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 203</value>
-  </data>
-  <data name="lblHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 13</value>
-  </data>
-  <data name="lblHost.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="lblHost.Text" xml:space="preserve">
-    <value>Host:</value>
-  </data>
-  <data name="&gt;&gt;lblHost.Name" xml:space="preserve">
-    <value>lblHost</value>
-  </data>
-  <data name="&gt;&gt;lblHost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblHost.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblHost.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="lblPass.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPass.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lblPass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 231</value>
-  </data>
-  <data name="lblPass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 13</value>
-  </data>
-  <data name="lblPass.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="lblPass.Text" xml:space="preserve">
-    <value>Pass:</value>
-  </data>
-  <data name="&gt;&gt;lblPass.Name" xml:space="preserve">
-    <value>lblPass</value>
-  </data>
-  <data name="&gt;&gt;lblPass.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPass.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblPass.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lblUser.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblUser.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="lblUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 231</value>
-  </data>
-  <data name="lblUser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 13</value>
-  </data>
-  <data name="lblUser.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="lblUser.Text" xml:space="preserve">
-    <value>Mail:</value>
-  </data>
-  <data name="&gt;&gt;lblUser.Name" xml:space="preserve">
-    <value>lblUser</value>
-  </data>
-  <data name="&gt;&gt;lblUser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblUser.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblUser.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="txtNoIPPass.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtNoIPPass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>199, 228</value>
-  </data>
-  <data name="txtNoIPPass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
-  </data>
-  <data name="txtNoIPPass.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPPass.Name" xml:space="preserve">
-    <value>txtNoIPPass</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPPass.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPPass.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPPass.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="txtNoIPUser.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtNoIPUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 228</value>
-  </data>
-  <data name="txtNoIPUser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 22</value>
-  </data>
-  <data name="txtNoIPUser.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPUser.Name" xml:space="preserve">
-    <value>txtNoIPUser</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPUser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPUser.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPUser.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="txtNoIPHost.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtNoIPHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 200</value>
-  </data>
-  <data name="txtNoIPHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
-  </data>
-  <data name="txtNoIPHost.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPHost.Name" xml:space="preserve">
-    <value>txtNoIPHost</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPHost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPHost.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtNoIPHost.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="chkShowPassword.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkShowPassword.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="chkShowPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 256</value>
-  </data>
-  <data name="chkShowPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 17</value>
-  </data>
-  <data name="chkShowPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="chkShowPassword.Text" xml:space="preserve">
-    <value>Show Password</value>
-  </data>
-  <data name="&gt;&gt;chkShowPassword.Name" xml:space="preserve">
-    <value>chkShowPassword</value>
-  </data>
-  <data name="&gt;&gt;chkShowPassword.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkShowPassword.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkShowPassword.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="chkIPv6Support.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkIPv6Support.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 45</value>
-  </data>
-  <data name="chkIPv6Support.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 17</value>
-  </data>
-  <data name="chkIPv6Support.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="chkIPv6Support.Text" xml:space="preserve">
-    <value>Enable IPv6 support</value>
-  </data>
-  <data name="&gt;&gt;chkIPv6Support.Name" xml:space="preserve">
-    <value>chkIPv6Support</value>
-  </data>
-  <data name="&gt;&gt;chkIPv6Support.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkIPv6Support.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkIPv6Support.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>96, 96</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>314, 333</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAQAEBAAAAAAIABoBAAARgAAACAgAAAAACAAqBAAAK4EAAAwMAAAAAAgAKglAABWFQAAQEAAAAAA
@@ -1143,17 +656,49 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Settings</value>
+    <value>设置</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmSettings</value>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;取消</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnListen.Text" xml:space="preserve">
+    <value>启动监听</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;保存</value>
+  </data>
+  <data name="chkAutoListen.Text" xml:space="preserve">
+    <value>启动时监听新连接</value>
+  </data>
+  <data name="chkIPv6Support.Text" xml:space="preserve">
+    <value>启用支持 IPv6 </value>
+  </data>
+  <data name="chkNoIPIntegration.Text" xml:space="preserve">
+    <value>启用 No-Ip.com DNS更新</value>
+  </data>
+  <data name="chkPopup.Text" xml:space="preserve">
+    <value>客户端连接时弹出通知</value>
+  </data>
+  <data name="chkShowPassword.Text" xml:space="preserve">
+    <value>显示密码</value>
+  </data>
+  <data name="chkShowTooltip.Text" xml:space="preserve">
+    <value>客户端显示提示系统信息</value>
+  </data>
+  <data name="chkUseUpnp.Text" xml:space="preserve">
+    <value>端口自动转发 (UPnP)</value>
+  </data>
+  <data name="lblHost.Text" xml:space="preserve">
+    <value>主机:</value>
+  </data>
+  <data name="lblPass.Text" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>端口监听:</value>
+  </data>
+  <data name="lblUser.Text" xml:space="preserve">
+    <value>邮件:</value>
   </data>
 </root>
