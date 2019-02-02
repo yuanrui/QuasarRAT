@@ -32,87 +32,62 @@
             this.lstLogs = new System.Windows.Forms.ListView();
             this.hLogs = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.stripLblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.btnGetLogs = new System.Windows.Forms.Button();
             this.wLogViewer = new System.Windows.Forms.WebBrowser();
-            this.stripLblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // lstLogs
             // 
-            this.lstLogs.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            resources.ApplyResources(this.lstLogs, "lstLogs");
             this.lstLogs.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.hLogs});
-            this.lstLogs.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.lstLogs.FullRowSelect = true;
             this.lstLogs.GridLines = true;
-            this.lstLogs.Location = new System.Drawing.Point(0, 31);
             this.lstLogs.Name = "lstLogs";
-            this.lstLogs.Size = new System.Drawing.Size(153, 431);
-            this.lstLogs.TabIndex = 0;
             this.lstLogs.UseCompatibleStateImageBehavior = false;
             this.lstLogs.View = System.Windows.Forms.View.Details;
             this.lstLogs.ItemActivate += new System.EventHandler(this.lstLogs_ItemActivate);
             // 
             // hLogs
             // 
-            this.hLogs.Text = "Logs";
-            this.hLogs.Width = 149;
+            resources.ApplyResources(this.hLogs, "hLogs");
             // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.stripLblStatus});
-            this.statusStrip.Location = new System.Drawing.Point(0, 460);
+            resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(862, 22);
-            this.statusStrip.TabIndex = 6;
-            this.statusStrip.Text = "statusStrip1";
+            // 
+            // stripLblStatus
+            // 
+            this.stripLblStatus.Name = "stripLblStatus";
+            resources.ApplyResources(this.stripLblStatus, "stripLblStatus");
             // 
             // btnGetLogs
             // 
-            this.btnGetLogs.Location = new System.Drawing.Point(2, 3);
+            resources.ApplyResources(this.btnGetLogs, "btnGetLogs");
             this.btnGetLogs.Name = "btnGetLogs";
-            this.btnGetLogs.Size = new System.Drawing.Size(149, 23);
-            this.btnGetLogs.TabIndex = 7;
-            this.btnGetLogs.Text = "Get Logs";
             this.btnGetLogs.UseVisualStyleBackColor = true;
             this.btnGetLogs.Click += new System.EventHandler(this.btnGetLogs_Click);
             // 
             // wLogViewer
             // 
-            this.wLogViewer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.wLogViewer.Location = new System.Drawing.Point(154, 50);
-            this.wLogViewer.MinimumSize = new System.Drawing.Size(20, 20);
+            resources.ApplyResources(this.wLogViewer, "wLogViewer");
             this.wLogViewer.Name = "wLogViewer";
             this.wLogViewer.ScriptErrorsSuppressed = true;
-            this.wLogViewer.Size = new System.Drawing.Size(708, 409);
-            this.wLogViewer.TabIndex = 8;
-            // 
-            // stripLblStatus
-            // 
-            this.stripLblStatus.Name = "stripLblStatus";
-            this.stripLblStatus.Size = new System.Drawing.Size(77, 17);
-            this.stripLblStatus.Text = "Status: Ready";
             // 
             // FrmKeylogger
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(862, 482);
             this.Controls.Add(this.wLogViewer);
             this.Controls.Add(this.btnGetLogs);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.lstLogs);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(630, 465);
             this.Name = "FrmKeylogger";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Keylogger []";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmKeylogger_FormClosing);
             this.Load += new System.EventHandler(this.FrmKeylogger_Load);
             this.statusStrip.ResumeLayout(false);

@@ -45,14 +45,14 @@ namespace Quasar.Server.Forms
             this.clearSelectedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lblInfo = new System.Windows.Forms.Label();
-            this.txtFormat = new System.Windows.Forms.TextBox();
-            this.lstPasswords = new AeroListView();
+            this.lstPasswords = new Quasar.Server.Controls.AeroListView();
             this.hIdentification = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hURL = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hUser = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hPass = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblInfo = new System.Windows.Forms.Label();
+            this.txtFormat = new System.Windows.Forms.TextBox();
             this.contextMenuStrip.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -67,7 +67,7 @@ namespace Quasar.Server.Forms
             this.clearToolStripMenuItem,
             this.refreshToolStripMenuItem});
             this.contextMenuStrip.Name = "menuMain";
-            this.contextMenuStrip.Size = new System.Drawing.Size(172, 120);
+            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             // 
             // saveToFileToolStripMenuItem
             // 
@@ -76,21 +76,18 @@ namespace Quasar.Server.Forms
             this.saveSelectedToolStripMenuItem});
             this.saveToFileToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.save;
             this.saveToFileToolStripMenuItem.Name = "saveToFileToolStripMenuItem";
-            this.saveToFileToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.saveToFileToolStripMenuItem.Text = "Save to File";
+            resources.ApplyResources(this.saveToFileToolStripMenuItem, "saveToFileToolStripMenuItem");
             // 
             // saveAllToolStripMenuItem
             // 
             this.saveAllToolStripMenuItem.Name = "saveAllToolStripMenuItem";
-            this.saveAllToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.saveAllToolStripMenuItem.Text = "All";
+            resources.ApplyResources(this.saveAllToolStripMenuItem, "saveAllToolStripMenuItem");
             this.saveAllToolStripMenuItem.Click += new System.EventHandler(this.saveAllToolStripMenuItem_Click);
             // 
             // saveSelectedToolStripMenuItem
             // 
             this.saveSelectedToolStripMenuItem.Name = "saveSelectedToolStripMenuItem";
-            this.saveSelectedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.saveSelectedToolStripMenuItem.Text = "Selected";
+            resources.ApplyResources(this.saveSelectedToolStripMenuItem, "saveSelectedToolStripMenuItem");
             this.saveSelectedToolStripMenuItem.Click += new System.EventHandler(this.saveSelectedToolStripMenuItem_Click);
             // 
             // copyToClipboardToolStripMenuItem
@@ -100,27 +97,24 @@ namespace Quasar.Server.Forms
             this.copySelectedToolStripMenuItem});
             this.copyToClipboardToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.page_copy;
             this.copyToClipboardToolStripMenuItem.Name = "copyToClipboardToolStripMenuItem";
-            this.copyToClipboardToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.copyToClipboardToolStripMenuItem.Text = "Copy to Clipboard";
+            resources.ApplyResources(this.copyToClipboardToolStripMenuItem, "copyToClipboardToolStripMenuItem");
             // 
             // copyAllToolStripMenuItem
             // 
             this.copyAllToolStripMenuItem.Name = "copyAllToolStripMenuItem";
-            this.copyAllToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.copyAllToolStripMenuItem.Text = "All";
+            resources.ApplyResources(this.copyAllToolStripMenuItem, "copyAllToolStripMenuItem");
             this.copyAllToolStripMenuItem.Click += new System.EventHandler(this.copyAllToolStripMenuItem_Click);
             // 
             // copySelectedToolStripMenuItem
             // 
             this.copySelectedToolStripMenuItem.Name = "copySelectedToolStripMenuItem";
-            this.copySelectedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.copySelectedToolStripMenuItem.Text = "Selected";
+            resources.ApplyResources(this.copySelectedToolStripMenuItem, "copySelectedToolStripMenuItem");
             this.copySelectedToolStripMenuItem.Click += new System.EventHandler(this.copySelectedToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(168, 6);
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // clearToolStripMenuItem
             // 
@@ -129,85 +123,37 @@ namespace Quasar.Server.Forms
             this.clearSelectedToolStripMenuItem});
             this.clearToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.delete;
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.clearToolStripMenuItem.Text = "Clear";
+            resources.ApplyResources(this.clearToolStripMenuItem, "clearToolStripMenuItem");
             // 
             // clearAllToolStripMenuItem
             // 
             this.clearAllToolStripMenuItem.Name = "clearAllToolStripMenuItem";
-            this.clearAllToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.clearAllToolStripMenuItem.Text = "All";
+            resources.ApplyResources(this.clearAllToolStripMenuItem, "clearAllToolStripMenuItem");
             this.clearAllToolStripMenuItem.Click += new System.EventHandler(this.clearAllToolStripMenuItem_Click);
             // 
             // clearSelectedToolStripMenuItem
             // 
             this.clearSelectedToolStripMenuItem.Name = "clearSelectedToolStripMenuItem";
-            this.clearSelectedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.clearSelectedToolStripMenuItem.Text = "Selected";
+            resources.ApplyResources(this.clearSelectedToolStripMenuItem, "clearSelectedToolStripMenuItem");
             this.clearSelectedToolStripMenuItem.Click += new System.EventHandler(this.clearSelectedToolStripMenuItem_Click);
             // 
             // refreshToolStripMenuItem
             // 
             this.refreshToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.refresh;
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
-            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.refreshToolStripMenuItem.Text = "Refresh";
+            resources.ApplyResources(this.refreshToolStripMenuItem, "refreshToolStripMenuItem");
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.lstPasswords);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(549, 325);
-            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Recovered Accounts";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.lblInfo);
-            this.groupBox2.Controls.Add(this.txtFormat);
-            this.groupBox2.Location = new System.Drawing.Point(12, 343);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(549, 90);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Custom Saving/Copying Format";
-            // 
-            // lblInfo
-            // 
-            this.lblInfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblInfo.Location = new System.Drawing.Point(35, 50);
-            this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(467, 26);
-            this.lblInfo.TabIndex = 1;
-            this.lblInfo.Text = "You can change the way the accounts are saved by adjusting the format in the box " +
-    "above.\r\nAvailable variables: APP, URL, USER, PASS\r\n";
-            this.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtFormat
-            // 
-            this.txtFormat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFormat.Location = new System.Drawing.Point(6, 19);
-            this.txtFormat.Name = "txtFormat";
-            this.txtFormat.Size = new System.Drawing.Size(537, 22);
-            this.txtFormat.TabIndex = 0;
-            this.txtFormat.Text = "APP - URL - USER:PASS";
-            this.txtFormat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lstPasswords
             // 
-            this.lstPasswords.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.lstPasswords, "lstPasswords");
             this.lstPasswords.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.hIdentification,
             this.hURL,
@@ -216,46 +162,51 @@ namespace Quasar.Server.Forms
             this.lstPasswords.ContextMenuStrip = this.contextMenuStrip;
             this.lstPasswords.FullRowSelect = true;
             this.lstPasswords.HideSelection = false;
-            this.lstPasswords.Location = new System.Drawing.Point(6, 19);
             this.lstPasswords.Name = "lstPasswords";
-            this.lstPasswords.Size = new System.Drawing.Size(537, 300);
-            this.lstPasswords.TabIndex = 0;
             this.lstPasswords.UseCompatibleStateImageBehavior = false;
             this.lstPasswords.View = System.Windows.Forms.View.Details;
             // 
             // hIdentification
             // 
-            this.hIdentification.Text = "Identification";
-            this.hIdentification.Width = 107;
+            resources.ApplyResources(this.hIdentification, "hIdentification");
             // 
             // hURL
             // 
-            this.hURL.Text = "URL / Location";
-            this.hURL.Width = 151;
+            resources.ApplyResources(this.hURL, "hURL");
             // 
             // hUser
             // 
-            this.hUser.Text = "Username";
-            this.hUser.Width = 142;
+            resources.ApplyResources(this.hUser, "hUser");
             // 
             // hPass
             // 
-            this.hPass.Text = "Password";
-            this.hPass.Width = 130;
+            resources.ApplyResources(this.hPass, "hPass");
+            // 
+            // groupBox2
+            // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Controls.Add(this.lblInfo);
+            this.groupBox2.Controls.Add(this.txtFormat);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // lblInfo
+            // 
+            resources.ApplyResources(this.lblInfo, "lblInfo");
+            this.lblInfo.Name = "lblInfo";
+            // 
+            // txtFormat
+            // 
+            resources.ApplyResources(this.txtFormat, "txtFormat");
+            this.txtFormat.Name = "txtFormat";
             // 
             // FrmPasswordRecovery
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(573, 445);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(589, 400);
             this.Name = "FrmPasswordRecovery";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Password Recovery []";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPasswordRecovery_FormClosing);
             this.Load += new System.EventHandler(this.FrmPasswordRecovery_Load);
             this.contextMenuStrip.ResumeLayout(false);

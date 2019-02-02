@@ -663,7 +663,7 @@
     <value>&amp;确定</value>
   </data>
   <data name="lblLicense.Text" xml:space="preserve">
-    <value>许可证</value>
+    <value>许可协议</value>
   </data>
   <data name="lblSubTitle.Text" xml:space="preserve">
     <value>远程管理工具</value>

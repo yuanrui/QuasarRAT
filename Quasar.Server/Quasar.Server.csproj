@@ -322,11 +322,50 @@
     <EmbeddedResource Include="Forms\FrmAbout.zh-Hans.resx">
       <DependentUpon>FrmAbout.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmBuilder.zh-Hans.resx">
+      <DependentUpon>FrmBuilder.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmCertificate.resx">
       <DependentUpon>FrmCertificate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCertificate.zh-Hans.resx">
+      <DependentUpon>FrmCertificate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmConnections.zh-Hans.resx">
+      <DependentUpon>FrmConnections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmDownloadAndExecute.zh-Hans.resx">
+      <DependentUpon>FrmDownloadAndExecute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmFileManager.zh-Hans.resx">
+      <DependentUpon>FrmFileManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmKeylogger.zh-Hans.resx">
+      <DependentUpon>FrmKeylogger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmMain.zh-Hans.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmPasswordRecovery.zh-Hans.resx">
+      <DependentUpon>FrmPasswordRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegistryEditor.zh-Hans.resx">
+      <DependentUpon>FrmRegistryEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegValueEditBinary.zh-Hans.resx">
+      <DependentUpon>FrmRegValueEditBinary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegValueEditMultiString.zh-Hans.resx">
+      <DependentUpon>FrmRegValueEditMultiString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegValueEditString.zh-Hans.resx">
+      <DependentUpon>FrmRegValueEditString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegValueEditWord.zh-Hans.resx">
+      <DependentUpon>FrmRegValueEditWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmReverseProxy.zh-Hans.resx">
+      <DependentUpon>FrmReverseProxy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmSettings.zh-Hans.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>

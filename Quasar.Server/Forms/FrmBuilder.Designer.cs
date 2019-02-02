@@ -137,59 +137,42 @@ namespace Quasar.Server.Forms
             // 
             // btnBuild
             // 
-            this.btnBuild.Location = new System.Drawing.Point(402, 390);
+            resources.ApplyResources(this.btnBuild, "btnBuild");
             this.btnBuild.Name = "btnBuild";
-            this.btnBuild.Size = new System.Drawing.Size(121, 23);
-            this.btnBuild.TabIndex = 1;
-            this.btnBuild.Text = "Build Client";
             this.btnBuild.UseVisualStyleBackColor = true;
             this.btnBuild.Click += new System.EventHandler(this.btnBuild_Click);
             // 
             // picUAC2
             // 
             this.picUAC2.Image = global::Quasar.Server.Properties.Resources.uac_shield;
-            this.picUAC2.Location = new System.Drawing.Point(363, 88);
+            resources.ApplyResources(this.picUAC2, "picUAC2");
             this.picUAC2.Name = "picUAC2";
-            this.picUAC2.Size = new System.Drawing.Size(16, 20);
-            this.picUAC2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.picUAC2.TabIndex = 32;
             this.picUAC2.TabStop = false;
-            this.tooltip.SetToolTip(this.picUAC2, "Administrator Privileges are required to install the client in System.");
+            this.tooltip.SetToolTip(this.picUAC2, resources.GetString("picUAC2.ToolTip"));
             // 
             // picUAC1
             // 
             this.picUAC1.Image = global::Quasar.Server.Properties.Resources.uac_shield;
-            this.picUAC1.Location = new System.Drawing.Point(363, 68);
+            resources.ApplyResources(this.picUAC1, "picUAC1");
             this.picUAC1.Name = "picUAC1";
-            this.picUAC1.Size = new System.Drawing.Size(16, 20);
-            this.picUAC1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.picUAC1.TabIndex = 31;
             this.picUAC1.TabStop = false;
-            this.tooltip.SetToolTip(this.picUAC1, "Administrator Privileges are required to install the client in Program Files.");
+            this.tooltip.SetToolTip(this.picUAC1, resources.GetString("picUAC1.ToolTip"));
             // 
             // rbSystem
             // 
-            this.rbSystem.AutoSize = true;
-            this.rbSystem.Location = new System.Drawing.Point(241, 91);
+            resources.ApplyResources(this.rbSystem, "rbSystem");
             this.rbSystem.Name = "rbSystem";
-            this.rbSystem.Size = new System.Drawing.Size(60, 17);
-            this.rbSystem.TabIndex = 5;
             this.rbSystem.TabStop = true;
-            this.rbSystem.Text = "System";
-            this.tooltip.SetToolTip(this.rbSystem, "Administrator Privileges are required to install the client in System.");
+            this.tooltip.SetToolTip(this.rbSystem, resources.GetString("rbSystem.ToolTip"));
             this.rbSystem.UseVisualStyleBackColor = true;
             this.rbSystem.CheckedChanged += new System.EventHandler(this.HasChangedSettingAndFilePath);
             // 
             // rbProgramFiles
             // 
-            this.rbProgramFiles.AutoSize = true;
-            this.rbProgramFiles.Location = new System.Drawing.Point(241, 68);
+            resources.ApplyResources(this.rbProgramFiles, "rbProgramFiles");
             this.rbProgramFiles.Name = "rbProgramFiles";
-            this.rbProgramFiles.Size = new System.Drawing.Size(94, 17);
-            this.rbProgramFiles.TabIndex = 4;
             this.rbProgramFiles.TabStop = true;
-            this.rbProgramFiles.Text = "Program Files";
-            this.tooltip.SetToolTip(this.rbProgramFiles, "Administrator Privileges are required to install the client in Program Files.");
+            this.tooltip.SetToolTip(this.rbProgramFiles, resources.GetString("rbProgramFiles.ToolTip"));
             this.rbProgramFiles.UseVisualStyleBackColor = true;
             this.rbProgramFiles.CheckedChanged += new System.EventHandler(this.HasChangedSettingAndFilePath);
             // 
@@ -199,41 +182,34 @@ namespace Quasar.Server.Forms
             this.removeHostToolStripMenuItem,
             this.clearToolStripMenuItem});
             this.contextMenuStrip.Name = "ctxtMenuHosts";
-            this.contextMenuStrip.Size = new System.Drawing.Size(144, 48);
+            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             // 
             // removeHostToolStripMenuItem
             // 
             this.removeHostToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.delete;
             this.removeHostToolStripMenuItem.Name = "removeHostToolStripMenuItem";
-            this.removeHostToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
-            this.removeHostToolStripMenuItem.Text = "Remove host";
+            resources.ApplyResources(this.removeHostToolStripMenuItem, "removeHostToolStripMenuItem");
             this.removeHostToolStripMenuItem.Click += new System.EventHandler(this.removeHostToolStripMenuItem_Click);
             // 
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.broom;
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
-            this.clearToolStripMenuItem.Text = "Clear all";
+            resources.ApplyResources(this.clearToolStripMenuItem, "clearToolStripMenuItem");
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
             // builderTabs
             // 
-            this.builderTabs.Alignment = System.Windows.Forms.TabAlignment.Left;
+            resources.ApplyResources(this.builderTabs, "builderTabs");
             this.builderTabs.Controls.Add(this.generalPage);
             this.builderTabs.Controls.Add(this.connectionPage);
             this.builderTabs.Controls.Add(this.installationPage);
             this.builderTabs.Controls.Add(this.assemblyPage);
             this.builderTabs.Controls.Add(this.surveillanceTab);
-            this.builderTabs.Dock = System.Windows.Forms.DockStyle.Top;
-            this.builderTabs.ItemSize = new System.Drawing.Size(44, 136);
-            this.builderTabs.Location = new System.Drawing.Point(0, 0);
             this.builderTabs.Multiline = true;
             this.builderTabs.Name = "builderTabs";
             this.builderTabs.SelectedIndex = 0;
-            this.builderTabs.Size = new System.Drawing.Size(535, 384);
             this.builderTabs.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.builderTabs.TabIndex = 0;
             // 
             // generalPage
             // 
@@ -249,112 +225,71 @@ namespace Quasar.Server.Forms
             this.generalPage.Controls.Add(this.line5);
             this.generalPage.Controls.Add(this.lblMutex);
             this.generalPage.Controls.Add(this.label6);
-            this.generalPage.Location = new System.Drawing.Point(140, 4);
+            resources.ApplyResources(this.generalPage, "generalPage");
             this.generalPage.Name = "generalPage";
-            this.generalPage.Padding = new System.Windows.Forms.Padding(3);
-            this.generalPage.Size = new System.Drawing.Size(391, 376);
-            this.generalPage.TabIndex = 4;
-            this.generalPage.Text = "Basic Settings";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(17, 94);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(370, 26);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "A unique mutex ensures that only one instance of the client is running\r\non the sa" +
-    "me system.";
             // 
             // line6
             // 
             this.line6.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line6.Location = new System.Drawing.Point(83, 78);
+            resources.ApplyResources(this.line6, "line6");
             this.line6.Name = "line6";
-            this.line6.Size = new System.Drawing.Size(300, 13);
-            this.line6.TabIndex = 20;
             this.line6.TabStop = false;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 78);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 13);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Process Mutex";
             // 
             // txtTag
             // 
-            this.txtTag.Location = new System.Drawing.Point(182, 40);
+            resources.ApplyResources(this.txtTag, "txtTag");
             this.txtTag.Name = "txtTag";
-            this.txtTag.Size = new System.Drawing.Size(203, 22);
-            this.txtTag.TabIndex = 3;
             this.txtTag.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 20);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(231, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "You can choose a tag to identify your client.";
             // 
             // lblTag
             // 
-            this.lblTag.AutoSize = true;
-            this.lblTag.Location = new System.Drawing.Point(17, 43);
+            resources.ApplyResources(this.lblTag, "lblTag");
             this.lblTag.Name = "lblTag";
-            this.lblTag.Size = new System.Drawing.Size(60, 13);
-            this.lblTag.TabIndex = 2;
-            this.lblTag.Text = "Client Tag:";
             // 
             // txtMutex
             // 
-            this.txtMutex.Location = new System.Drawing.Point(182, 130);
-            this.txtMutex.MaxLength = 64;
+            resources.ApplyResources(this.txtMutex, "txtMutex");
             this.txtMutex.Name = "txtMutex";
-            this.txtMutex.Size = new System.Drawing.Size(201, 22);
-            this.txtMutex.TabIndex = 7;
             this.txtMutex.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // btnMutex
             // 
-            this.btnMutex.Location = new System.Drawing.Point(262, 158);
+            resources.ApplyResources(this.btnMutex, "btnMutex");
             this.btnMutex.Name = "btnMutex";
-            this.btnMutex.Size = new System.Drawing.Size(121, 23);
-            this.btnMutex.TabIndex = 8;
-            this.btnMutex.Text = "Random Mutex";
             this.btnMutex.UseVisualStyleBackColor = true;
             this.btnMutex.Click += new System.EventHandler(this.btnMutex_Click);
             // 
             // line5
             // 
             this.line5.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line5.Location = new System.Drawing.Point(112, 5);
+            resources.ApplyResources(this.line5, "line5");
             this.line5.Name = "line5";
-            this.line5.Size = new System.Drawing.Size(271, 13);
-            this.line5.TabIndex = 15;
             this.line5.TabStop = false;
             // 
             // lblMutex
             // 
-            this.lblMutex.AutoSize = true;
-            this.lblMutex.Location = new System.Drawing.Point(17, 133);
+            resources.ApplyResources(this.lblMutex, "lblMutex");
             this.lblMutex.Name = "lblMutex";
-            this.lblMutex.Size = new System.Drawing.Size(42, 13);
-            this.lblMutex.TabIndex = 6;
-            this.lblMutex.Text = "Mutex:";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 5);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Client Identification";
             // 
             // connectionPage
             // 
@@ -372,16 +307,12 @@ namespace Quasar.Server.Forms
             this.connectionPage.Controls.Add(this.txtHost);
             this.connectionPage.Controls.Add(this.lblDelay);
             this.connectionPage.Controls.Add(this.lblPort);
-            this.connectionPage.Location = new System.Drawing.Point(140, 4);
+            resources.ApplyResources(this.connectionPage, "connectionPage");
             this.connectionPage.Name = "connectionPage";
-            this.connectionPage.Padding = new System.Windows.Forms.Padding(3);
-            this.connectionPage.Size = new System.Drawing.Size(391, 376);
-            this.connectionPage.TabIndex = 0;
-            this.connectionPage.Text = "Connection Settings";
             // 
             // numericUpDownPort
             // 
-            this.numericUpDownPort.Location = new System.Drawing.Point(254, 51);
+            resources.ApplyResources(this.numericUpDownPort, "numericUpDownPort");
             this.numericUpDownPort.Maximum = new decimal(new int[] {
             65535,
             0,
@@ -393,8 +324,6 @@ namespace Quasar.Server.Forms
             0,
             0});
             this.numericUpDownPort.Name = "numericUpDownPort";
-            this.numericUpDownPort.Size = new System.Drawing.Size(129, 22);
-            this.numericUpDownPort.TabIndex = 3;
             this.numericUpDownPort.Value = new decimal(new int[] {
             1,
             0,
@@ -403,15 +332,13 @@ namespace Quasar.Server.Forms
             // 
             // numericUpDownDelay
             // 
-            this.numericUpDownDelay.Location = new System.Drawing.Point(276, 178);
+            resources.ApplyResources(this.numericUpDownDelay, "numericUpDownDelay");
             this.numericUpDownDelay.Maximum = new decimal(new int[] {
             600000,
             0,
             0,
             0});
             this.numericUpDownDelay.Name = "numericUpDownDelay";
-            this.numericUpDownDelay.Size = new System.Drawing.Size(80, 22);
-            this.numericUpDownDelay.TabIndex = 10;
             this.numericUpDownDelay.Value = new decimal(new int[] {
             5000,
             0,
@@ -422,101 +349,66 @@ namespace Quasar.Server.Forms
             // line3
             // 
             this.line3.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line3.Location = new System.Drawing.Point(95, 159);
+            resources.ApplyResources(this.line3, "line3");
             this.line3.Name = "line3";
-            this.line3.Size = new System.Drawing.Size(290, 13);
-            this.line3.TabIndex = 18;
             this.line3.TabStop = false;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 159);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 13);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Reconnect Delay";
             // 
             // line1
             // 
             this.line1.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line1.Location = new System.Drawing.Point(104, 5);
+            resources.ApplyResources(this.line1, "line1");
             this.line1.Name = "line1";
-            this.line1.Size = new System.Drawing.Size(281, 13);
-            this.line1.TabIndex = 13;
             this.line1.TabStop = false;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 5);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 13);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Connection Hosts";
             // 
             // lstHosts
             // 
             this.lstHosts.ContextMenuStrip = this.contextMenuStrip;
             this.lstHosts.FormattingEnabled = true;
-            this.lstHosts.Location = new System.Drawing.Point(20, 21);
+            resources.ApplyResources(this.lstHosts, "lstHosts");
             this.lstHosts.Name = "lstHosts";
-            this.lstHosts.Size = new System.Drawing.Size(149, 121);
-            this.lstHosts.TabIndex = 5;
             this.lstHosts.TabStop = false;
             // 
             // btnAddHost
             // 
-            this.btnAddHost.Location = new System.Drawing.Point(254, 78);
+            resources.ApplyResources(this.btnAddHost, "btnAddHost");
             this.btnAddHost.Name = "btnAddHost";
-            this.btnAddHost.Size = new System.Drawing.Size(129, 22);
-            this.btnAddHost.TabIndex = 4;
-            this.btnAddHost.Text = "Add Host";
             this.btnAddHost.UseVisualStyleBackColor = true;
             this.btnAddHost.Click += new System.EventHandler(this.btnAddHost_Click);
             // 
             // lblMS
             // 
-            this.lblMS.AutoSize = true;
-            this.lblMS.Location = new System.Drawing.Point(356, 183);
+            resources.ApplyResources(this.lblMS, "lblMS");
             this.lblMS.Name = "lblMS";
-            this.lblMS.Size = new System.Drawing.Size(21, 13);
-            this.lblMS.TabIndex = 11;
-            this.lblMS.Text = "ms";
             // 
             // lblHost
             // 
-            this.lblHost.AutoSize = true;
-            this.lblHost.Location = new System.Drawing.Point(175, 25);
+            resources.ApplyResources(this.lblHost, "lblHost");
             this.lblHost.Name = "lblHost";
-            this.lblHost.Size = new System.Drawing.Size(75, 13);
-            this.lblHost.TabIndex = 0;
-            this.lblHost.Text = "IP/Hostname:";
             // 
             // txtHost
             // 
-            this.txtHost.Location = new System.Drawing.Point(254, 22);
+            resources.ApplyResources(this.txtHost, "txtHost");
             this.txtHost.Name = "txtHost";
-            this.txtHost.Size = new System.Drawing.Size(129, 22);
-            this.txtHost.TabIndex = 1;
             // 
             // lblDelay
             // 
-            this.lblDelay.AutoSize = true;
-            this.lblDelay.Location = new System.Drawing.Point(17, 182);
+            resources.ApplyResources(this.lblDelay, "lblDelay");
             this.lblDelay.Name = "lblDelay";
-            this.lblDelay.Size = new System.Drawing.Size(199, 13);
-            this.lblDelay.TabIndex = 9;
-            this.lblDelay.Text = "Time to wait between reconnect tries:";
             // 
             // lblPort
             // 
-            this.lblPort.AutoSize = true;
-            this.lblPort.Location = new System.Drawing.Point(175, 53);
+            resources.ApplyResources(this.lblPort, "lblPort");
             this.lblPort.Name = "lblPort";
-            this.lblPort.Size = new System.Drawing.Size(31, 13);
-            this.lblPort.TabIndex = 2;
-            this.lblPort.Text = "Port:";
             // 
             // installationPage
             // 
@@ -544,192 +436,124 @@ namespace Quasar.Server.Forms
             this.installationPage.Controls.Add(this.lblPreviewPath);
             this.installationPage.Controls.Add(this.txtInstallSubDirectory);
             this.installationPage.Controls.Add(this.txtPreviewPath);
-            this.installationPage.Location = new System.Drawing.Point(140, 4);
+            resources.ApplyResources(this.installationPage, "installationPage");
             this.installationPage.Name = "installationPage";
-            this.installationPage.Padding = new System.Windows.Forms.Padding(3);
-            this.installationPage.Size = new System.Drawing.Size(391, 376);
-            this.installationPage.TabIndex = 1;
-            this.installationPage.Text = "Installation Settings";
             // 
             // chkHideSubDirectory
             // 
-            this.chkHideSubDirectory.AutoSize = true;
-            this.chkHideSubDirectory.Location = new System.Drawing.Point(186, 185);
+            resources.ApplyResources(this.chkHideSubDirectory, "chkHideSubDirectory");
             this.chkHideSubDirectory.Name = "chkHideSubDirectory";
-            this.chkHideSubDirectory.Size = new System.Drawing.Size(185, 17);
-            this.chkHideSubDirectory.TabIndex = 37;
-            this.chkHideSubDirectory.Text = "Set subdir attributes to hidden";
             this.chkHideSubDirectory.UseVisualStyleBackColor = true;
             // 
             // line7
             // 
             this.line7.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line7.Location = new System.Drawing.Point(60, 274);
+            resources.ApplyResources(this.line7, "line7");
             this.line7.Name = "line7";
-            this.line7.Size = new System.Drawing.Size(323, 13);
-            this.line7.TabIndex = 36;
             this.line7.TabStop = false;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(7, 274);
+            resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(55, 13);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "Autostart";
             // 
             // line4
             // 
             this.line4.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line4.Location = new System.Drawing.Point(117, 5);
+            resources.ApplyResources(this.line4, "line4");
             this.line4.Name = "line4";
-            this.line4.Size = new System.Drawing.Size(266, 13);
-            this.line4.TabIndex = 34;
             this.line4.TabStop = false;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 5);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Installation Location";
             // 
             // chkInstall
             // 
-            this.chkInstall.AutoSize = true;
-            this.chkInstall.Location = new System.Drawing.Point(20, 21);
+            resources.ApplyResources(this.chkInstall, "chkInstall");
             this.chkInstall.Name = "chkInstall";
-            this.chkInstall.Size = new System.Drawing.Size(90, 17);
-            this.chkInstall.TabIndex = 1;
-            this.chkInstall.Text = "Install Client";
             this.chkInstall.UseVisualStyleBackColor = true;
             this.chkInstall.CheckedChanged += new System.EventHandler(this.chkInstall_CheckedChanged);
             // 
             // lblInstallName
             // 
-            this.lblInstallName.AutoSize = true;
-            this.lblInstallName.Location = new System.Drawing.Point(17, 156);
+            resources.ApplyResources(this.lblInstallName, "lblInstallName");
             this.lblInstallName.Name = "lblInstallName";
-            this.lblInstallName.Size = new System.Drawing.Size(73, 13);
-            this.lblInstallName.TabIndex = 8;
-            this.lblInstallName.Text = "Install Name:";
             // 
             // txtInstallName
             // 
-            this.txtInstallName.Location = new System.Drawing.Point(182, 153);
+            resources.ApplyResources(this.txtInstallName, "txtInstallName");
             this.txtInstallName.Name = "txtInstallName";
-            this.txtInstallName.Size = new System.Drawing.Size(170, 22);
-            this.txtInstallName.TabIndex = 9;
             this.txtInstallName.TextChanged += new System.EventHandler(this.HasChangedSettingAndFilePath);
             this.txtInstallName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInstallname_KeyPress);
             // 
             // txtRegistryKeyName
             // 
-            this.txtRegistryKeyName.Location = new System.Drawing.Point(182, 324);
+            resources.ApplyResources(this.txtRegistryKeyName, "txtRegistryKeyName");
             this.txtRegistryKeyName.Name = "txtRegistryKeyName";
-            this.txtRegistryKeyName.Size = new System.Drawing.Size(201, 22);
-            this.txtRegistryKeyName.TabIndex = 17;
             this.txtRegistryKeyName.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // lblExtension
             // 
-            this.lblExtension.AutoSize = true;
-            this.lblExtension.Location = new System.Drawing.Point(352, 159);
+            resources.ApplyResources(this.lblExtension, "lblExtension");
             this.lblExtension.Name = "lblExtension";
-            this.lblExtension.Size = new System.Drawing.Size(27, 13);
-            this.lblExtension.TabIndex = 10;
-            this.lblExtension.Text = ".exe";
             // 
             // lblRegistryKeyName
             // 
-            this.lblRegistryKeyName.AutoSize = true;
-            this.lblRegistryKeyName.Location = new System.Drawing.Point(17, 327);
+            resources.ApplyResources(this.lblRegistryKeyName, "lblRegistryKeyName");
             this.lblRegistryKeyName.Name = "lblRegistryKeyName";
-            this.lblRegistryKeyName.Size = new System.Drawing.Size(80, 13);
-            this.lblRegistryKeyName.TabIndex = 16;
-            this.lblRegistryKeyName.Text = "Startup Name:";
             // 
             // chkStartup
             // 
-            this.chkStartup.AutoSize = true;
-            this.chkStartup.Location = new System.Drawing.Point(20, 298);
+            resources.ApplyResources(this.chkStartup, "chkStartup");
             this.chkStartup.Name = "chkStartup";
-            this.chkStartup.Size = new System.Drawing.Size(215, 17);
-            this.chkStartup.TabIndex = 15;
-            this.chkStartup.Text = "Run Client when the computer starts";
             this.chkStartup.UseVisualStyleBackColor = true;
             this.chkStartup.CheckedChanged += new System.EventHandler(this.chkStartup_CheckedChanged);
             // 
             // rbAppdata
             // 
-            this.rbAppdata.AutoSize = true;
+            resources.ApplyResources(this.rbAppdata, "rbAppdata");
             this.rbAppdata.Checked = true;
-            this.rbAppdata.Location = new System.Drawing.Point(241, 45);
             this.rbAppdata.Name = "rbAppdata";
-            this.rbAppdata.Size = new System.Drawing.Size(137, 17);
-            this.rbAppdata.TabIndex = 3;
             this.rbAppdata.TabStop = true;
-            this.rbAppdata.Text = "User Application Data";
             this.rbAppdata.UseVisualStyleBackColor = true;
             this.rbAppdata.CheckedChanged += new System.EventHandler(this.HasChangedSettingAndFilePath);
             // 
             // chkHide
             // 
-            this.chkHide.AutoSize = true;
-            this.chkHide.Location = new System.Drawing.Point(20, 185);
+            resources.ApplyResources(this.chkHide, "chkHide");
             this.chkHide.Name = "chkHide";
-            this.chkHide.Size = new System.Drawing.Size(168, 17);
-            this.chkHide.TabIndex = 11;
-            this.chkHide.Text = "Set file attributes to hidden";
             this.chkHide.UseVisualStyleBackColor = true;
             this.chkHide.CheckedChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // lblInstallDirectory
             // 
-            this.lblInstallDirectory.AutoSize = true;
-            this.lblInstallDirectory.Location = new System.Drawing.Point(17, 47);
+            resources.ApplyResources(this.lblInstallDirectory, "lblInstallDirectory");
             this.lblInstallDirectory.Name = "lblInstallDirectory";
-            this.lblInstallDirectory.Size = new System.Drawing.Size(90, 13);
-            this.lblInstallDirectory.TabIndex = 2;
-            this.lblInstallDirectory.Text = "Install Directory:";
             // 
             // lblInstallSubDirectory
             // 
-            this.lblInstallSubDirectory.AutoSize = true;
-            this.lblInstallSubDirectory.Location = new System.Drawing.Point(17, 126);
+            resources.ApplyResources(this.lblInstallSubDirectory, "lblInstallSubDirectory");
             this.lblInstallSubDirectory.Name = "lblInstallSubDirectory";
-            this.lblInstallSubDirectory.Size = new System.Drawing.Size(109, 13);
-            this.lblInstallSubDirectory.TabIndex = 6;
-            this.lblInstallSubDirectory.Text = "Install Subdirectory:";
             // 
             // lblPreviewPath
             // 
-            this.lblPreviewPath.AutoSize = true;
-            this.lblPreviewPath.Location = new System.Drawing.Point(17, 218);
+            resources.ApplyResources(this.lblPreviewPath, "lblPreviewPath");
             this.lblPreviewPath.Name = "lblPreviewPath";
-            this.lblPreviewPath.Size = new System.Drawing.Size(157, 13);
-            this.lblPreviewPath.TabIndex = 12;
-            this.lblPreviewPath.Text = "Installation Location Preview:";
             // 
             // txtInstallSubDirectory
             // 
-            this.txtInstallSubDirectory.Location = new System.Drawing.Point(182, 123);
+            resources.ApplyResources(this.txtInstallSubDirectory, "txtInstallSubDirectory");
             this.txtInstallSubDirectory.Name = "txtInstallSubDirectory";
-            this.txtInstallSubDirectory.Size = new System.Drawing.Size(201, 22);
-            this.txtInstallSubDirectory.TabIndex = 7;
             this.txtInstallSubDirectory.TextChanged += new System.EventHandler(this.HasChangedSettingAndFilePath);
             this.txtInstallSubDirectory.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInstallsub_KeyPress);
             // 
             // txtPreviewPath
             // 
-            this.txtPreviewPath.Location = new System.Drawing.Point(20, 234);
+            resources.ApplyResources(this.txtPreviewPath, "txtPreviewPath");
             this.txtPreviewPath.Name = "txtPreviewPath";
             this.txtPreviewPath.ReadOnly = true;
-            this.txtPreviewPath.Size = new System.Drawing.Size(363, 22);
-            this.txtPreviewPath.TabIndex = 13;
             this.txtPreviewPath.TabStop = false;
             // 
             // assemblyPage
@@ -760,230 +584,151 @@ namespace Quasar.Server.Forms
             this.assemblyPage.Controls.Add(this.lblCopyright);
             this.assemblyPage.Controls.Add(this.lblTrademarks);
             this.assemblyPage.Controls.Add(this.txtCopyright);
-            this.assemblyPage.Location = new System.Drawing.Point(140, 4);
+            resources.ApplyResources(this.assemblyPage, "assemblyPage");
             this.assemblyPage.Name = "assemblyPage";
-            this.assemblyPage.Size = new System.Drawing.Size(391, 376);
-            this.assemblyPage.TabIndex = 2;
-            this.assemblyPage.Text = "Assembly Settings";
             // 
             // iconPreview
             // 
-            this.iconPreview.Location = new System.Drawing.Point(319, 302);
+            resources.ApplyResources(this.iconPreview, "iconPreview");
             this.iconPreview.Name = "iconPreview";
-            this.iconPreview.Size = new System.Drawing.Size(64, 64);
-            this.iconPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.iconPreview.TabIndex = 42;
             this.iconPreview.TabStop = false;
             // 
             // btnBrowseIcon
             // 
-            this.btnBrowseIcon.Location = new System.Drawing.Point(177, 343);
+            resources.ApplyResources(this.btnBrowseIcon, "btnBrowseIcon");
             this.btnBrowseIcon.Name = "btnBrowseIcon";
-            this.btnBrowseIcon.Size = new System.Drawing.Size(125, 23);
-            this.btnBrowseIcon.TabIndex = 41;
-            this.btnBrowseIcon.Text = "Browse...";
             this.btnBrowseIcon.UseVisualStyleBackColor = true;
             this.btnBrowseIcon.Click += new System.EventHandler(this.btnBrowseIcon_Click);
             // 
             // txtIconPath
             // 
-            this.txtIconPath.Location = new System.Drawing.Point(20, 315);
+            resources.ApplyResources(this.txtIconPath, "txtIconPath");
             this.txtIconPath.Name = "txtIconPath";
-            this.txtIconPath.Size = new System.Drawing.Size(282, 22);
-            this.txtIconPath.TabIndex = 39;
             // 
             // line8
             // 
             this.line8.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line8.Location = new System.Drawing.Point(122, 5);
+            resources.ApplyResources(this.line8, "line8");
             this.line8.Name = "line8";
-            this.line8.Size = new System.Drawing.Size(261, 13);
-            this.line8.TabIndex = 36;
             this.line8.TabStop = false;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 5);
+            resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(118, 13);
-            this.label11.TabIndex = 35;
-            this.label11.Text = "Assembly Information";
             // 
             // chkChangeAsmInfo
             // 
-            this.chkChangeAsmInfo.AutoSize = true;
-            this.chkChangeAsmInfo.Location = new System.Drawing.Point(20, 21);
+            resources.ApplyResources(this.chkChangeAsmInfo, "chkChangeAsmInfo");
             this.chkChangeAsmInfo.Name = "chkChangeAsmInfo";
-            this.chkChangeAsmInfo.Size = new System.Drawing.Size(180, 17);
-            this.chkChangeAsmInfo.TabIndex = 0;
-            this.chkChangeAsmInfo.Text = "Change Assembly Information";
             this.chkChangeAsmInfo.UseVisualStyleBackColor = true;
             this.chkChangeAsmInfo.CheckedChanged += new System.EventHandler(this.chkChangeAsmInfo_CheckedChanged);
             // 
             // txtFileVersion
             // 
-            this.txtFileVersion.Location = new System.Drawing.Point(182, 240);
+            resources.ApplyResources(this.txtFileVersion, "txtFileVersion");
             this.txtFileVersion.Name = "txtFileVersion";
-            this.txtFileVersion.Size = new System.Drawing.Size(201, 22);
-            this.txtFileVersion.TabIndex = 16;
             this.txtFileVersion.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // line9
             // 
             this.line9.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line9.Location = new System.Drawing.Point(83, 276);
+            resources.ApplyResources(this.line9, "line9");
             this.line9.Name = "line9";
-            this.line9.Size = new System.Drawing.Size(300, 13);
-            this.line9.TabIndex = 38;
             this.line9.TabStop = false;
             // 
             // lblProductName
             // 
-            this.lblProductName.AutoSize = true;
-            this.lblProductName.Location = new System.Drawing.Point(17, 47);
+            resources.ApplyResources(this.lblProductName, "lblProductName");
             this.lblProductName.Name = "lblProductName";
-            this.lblProductName.Size = new System.Drawing.Size(82, 13);
-            this.lblProductName.TabIndex = 1;
-            this.lblProductName.Text = "Product Name:";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(6, 276);
+            resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(79, 13);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Assembly Icon";
             // 
             // chkChangeIcon
             // 
-            this.chkChangeIcon.AutoSize = true;
-            this.chkChangeIcon.Location = new System.Drawing.Point(20, 294);
+            resources.ApplyResources(this.chkChangeIcon, "chkChangeIcon");
             this.chkChangeIcon.Name = "chkChangeIcon";
-            this.chkChangeIcon.Size = new System.Drawing.Size(141, 17);
-            this.chkChangeIcon.TabIndex = 2;
-            this.chkChangeIcon.Text = "Change Assembly Icon";
             this.chkChangeIcon.UseVisualStyleBackColor = true;
             this.chkChangeIcon.CheckedChanged += new System.EventHandler(this.chkChangeIcon_CheckedChanged);
             // 
             // lblFileVersion
             // 
-            this.lblFileVersion.AutoSize = true;
-            this.lblFileVersion.Location = new System.Drawing.Point(17, 243);
+            resources.ApplyResources(this.lblFileVersion, "lblFileVersion");
             this.lblFileVersion.Name = "lblFileVersion";
-            this.lblFileVersion.Size = new System.Drawing.Size(69, 13);
-            this.lblFileVersion.TabIndex = 15;
-            this.lblFileVersion.Text = "File Version:";
             // 
             // txtProductName
             // 
-            this.txtProductName.Location = new System.Drawing.Point(182, 44);
+            resources.ApplyResources(this.txtProductName, "txtProductName");
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(201, 22);
-            this.txtProductName.TabIndex = 2;
             this.txtProductName.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // txtProductVersion
             // 
-            this.txtProductVersion.Location = new System.Drawing.Point(182, 212);
+            resources.ApplyResources(this.txtProductVersion, "txtProductVersion");
             this.txtProductVersion.Name = "txtProductVersion";
-            this.txtProductVersion.Size = new System.Drawing.Size(201, 22);
-            this.txtProductVersion.TabIndex = 14;
             this.txtProductVersion.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // lblDescription
             // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(17, 75);
+            resources.ApplyResources(this.lblDescription, "lblDescription");
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(69, 13);
-            this.lblDescription.TabIndex = 3;
-            this.lblDescription.Text = "Description:";
             // 
             // lblProductVersion
             // 
-            this.lblProductVersion.AutoSize = true;
-            this.lblProductVersion.Location = new System.Drawing.Point(17, 215);
+            resources.ApplyResources(this.lblProductVersion, "lblProductVersion");
             this.lblProductVersion.Name = "lblProductVersion";
-            this.lblProductVersion.Size = new System.Drawing.Size(91, 13);
-            this.lblProductVersion.TabIndex = 13;
-            this.lblProductVersion.Text = "Product Version:";
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(182, 72);
+            resources.ApplyResources(this.txtDescription, "txtDescription");
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(201, 22);
-            this.txtDescription.TabIndex = 4;
             this.txtDescription.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // txtOriginalFilename
             // 
-            this.txtOriginalFilename.Location = new System.Drawing.Point(182, 184);
+            resources.ApplyResources(this.txtOriginalFilename, "txtOriginalFilename");
             this.txtOriginalFilename.Name = "txtOriginalFilename";
-            this.txtOriginalFilename.Size = new System.Drawing.Size(201, 22);
-            this.txtOriginalFilename.TabIndex = 12;
             this.txtOriginalFilename.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // lblCompanyName
             // 
-            this.lblCompanyName.AutoSize = true;
-            this.lblCompanyName.Location = new System.Drawing.Point(17, 103);
+            resources.ApplyResources(this.lblCompanyName, "lblCompanyName");
             this.lblCompanyName.Name = "lblCompanyName";
-            this.lblCompanyName.Size = new System.Drawing.Size(90, 13);
-            this.lblCompanyName.TabIndex = 5;
-            this.lblCompanyName.Text = "Company Name:";
             // 
             // lblOriginalFilename
             // 
-            this.lblOriginalFilename.AutoSize = true;
-            this.lblOriginalFilename.Location = new System.Drawing.Point(17, 187);
+            resources.ApplyResources(this.lblOriginalFilename, "lblOriginalFilename");
             this.lblOriginalFilename.Name = "lblOriginalFilename";
-            this.lblOriginalFilename.Size = new System.Drawing.Size(101, 13);
-            this.lblOriginalFilename.TabIndex = 11;
-            this.lblOriginalFilename.Text = "Original Filename:";
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(182, 100);
+            resources.ApplyResources(this.txtCompanyName, "txtCompanyName");
             this.txtCompanyName.Name = "txtCompanyName";
-            this.txtCompanyName.Size = new System.Drawing.Size(201, 22);
-            this.txtCompanyName.TabIndex = 6;
             this.txtCompanyName.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // txtTrademarks
             // 
-            this.txtTrademarks.Location = new System.Drawing.Point(182, 156);
+            resources.ApplyResources(this.txtTrademarks, "txtTrademarks");
             this.txtTrademarks.Name = "txtTrademarks";
-            this.txtTrademarks.Size = new System.Drawing.Size(201, 22);
-            this.txtTrademarks.TabIndex = 10;
             this.txtTrademarks.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // lblCopyright
             // 
-            this.lblCopyright.AutoSize = true;
-            this.lblCopyright.Location = new System.Drawing.Point(17, 131);
+            resources.ApplyResources(this.lblCopyright, "lblCopyright");
             this.lblCopyright.Name = "lblCopyright";
-            this.lblCopyright.Size = new System.Drawing.Size(61, 13);
-            this.lblCopyright.TabIndex = 7;
-            this.lblCopyright.Text = "Copyright:";
             // 
             // lblTrademarks
             // 
-            this.lblTrademarks.AutoSize = true;
-            this.lblTrademarks.Location = new System.Drawing.Point(17, 159);
+            resources.ApplyResources(this.lblTrademarks, "lblTrademarks");
             this.lblTrademarks.Name = "lblTrademarks";
-            this.lblTrademarks.Size = new System.Drawing.Size(67, 13);
-            this.lblTrademarks.TabIndex = 9;
-            this.lblTrademarks.Text = "Trademarks:";
             // 
             // txtCopyright
             // 
-            this.txtCopyright.Location = new System.Drawing.Point(182, 128);
+            resources.ApplyResources(this.txtCopyright, "txtCopyright");
             this.txtCopyright.Name = "txtCopyright";
-            this.txtCopyright.Size = new System.Drawing.Size(201, 22);
-            this.txtCopyright.TabIndex = 8;
             this.txtCopyright.TextChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // surveillanceTab
@@ -995,86 +740,58 @@ namespace Quasar.Server.Forms
             this.surveillanceTab.Controls.Add(this.line10);
             this.surveillanceTab.Controls.Add(this.label14);
             this.surveillanceTab.Controls.Add(this.chkKeylogger);
-            this.surveillanceTab.Location = new System.Drawing.Point(140, 4);
+            resources.ApplyResources(this.surveillanceTab, "surveillanceTab");
             this.surveillanceTab.Name = "surveillanceTab";
-            this.surveillanceTab.Size = new System.Drawing.Size(391, 376);
-            this.surveillanceTab.TabIndex = 3;
-            this.surveillanceTab.Text = "Surveillance Settings";
             // 
             // chkHideLogDirectory
             // 
-            this.chkHideLogDirectory.AutoSize = true;
-            this.chkHideLogDirectory.Location = new System.Drawing.Point(20, 72);
+            resources.ApplyResources(this.chkHideLogDirectory, "chkHideLogDirectory");
             this.chkHideLogDirectory.Name = "chkHideLogDirectory";
-            this.chkHideLogDirectory.Size = new System.Drawing.Size(197, 17);
-            this.chkHideLogDirectory.TabIndex = 7;
-            this.chkHideLogDirectory.Text = "Set directory attributes to hidden";
             this.chkHideLogDirectory.UseVisualStyleBackColor = true;
             this.chkHideLogDirectory.CheckedChanged += new System.EventHandler(this.HasChangedSetting);
             // 
             // txtLogDirectoryName
             // 
-            this.txtLogDirectoryName.Location = new System.Drawing.Point(262, 44);
+            resources.ApplyResources(this.txtLogDirectoryName, "txtLogDirectoryName");
             this.txtLogDirectoryName.Name = "txtLogDirectoryName";
-            this.txtLogDirectoryName.Size = new System.Drawing.Size(118, 22);
-            this.txtLogDirectoryName.TabIndex = 6;
             this.txtLogDirectoryName.TextChanged += new System.EventHandler(this.HasChangedSetting);
             this.txtLogDirectoryName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLogDirectoryName_KeyPress);
             // 
             // lblLogDirectory
             // 
-            this.lblLogDirectory.AutoSize = true;
-            this.lblLogDirectory.Location = new System.Drawing.Point(17, 47);
+            resources.ApplyResources(this.lblLogDirectory, "lblLogDirectory");
             this.lblLogDirectory.Name = "lblLogDirectory";
-            this.lblLogDirectory.Size = new System.Drawing.Size(110, 13);
-            this.lblLogDirectory.TabIndex = 5;
-            this.lblLogDirectory.Text = "Log Directory Name:";
             // 
             // line10
             // 
             this.line10.LineAlignment = Quasar.Server.Controls.Line.Alignment.Horizontal;
-            this.line10.Location = new System.Drawing.Point(72, 5);
+            resources.ApplyResources(this.line10, "line10");
             this.line10.Name = "line10";
-            this.line10.Size = new System.Drawing.Size(308, 13);
-            this.line10.TabIndex = 41;
             this.line10.TabStop = false;
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(6, 5);
+            resources.ApplyResources(this.label14, "label14");
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(68, 13);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "Surveillance";
             // 
             // chkKeylogger
             // 
-            this.chkKeylogger.AutoSize = true;
-            this.chkKeylogger.Location = new System.Drawing.Point(20, 21);
+            resources.ApplyResources(this.chkKeylogger, "chkKeylogger");
             this.chkKeylogger.Name = "chkKeylogger";
-            this.chkKeylogger.Size = new System.Drawing.Size(156, 17);
-            this.chkKeylogger.TabIndex = 4;
-            this.chkKeylogger.Text = "Enable keyboard logging";
             this.chkKeylogger.UseVisualStyleBackColor = true;
             this.chkKeylogger.CheckedChanged += new System.EventHandler(this.chkKeylogger_CheckedChanged);
             // 
             // FrmBuilder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(535, 424);
             this.Controls.Add(this.builderTabs);
             this.Controls.Add(this.btnBuild);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmBuilder";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Client Builder";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmBuilder_FormClosing);
             this.Load += new System.EventHandler(this.FrmBuilder_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picUAC2)).EndInit();

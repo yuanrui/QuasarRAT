@@ -35,7 +35,7 @@ namespace Quasar.Server.Forms
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeConnectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lstConnections = new AeroListView();
+            this.lstConnections = new Quasar.Server.Controls.AeroListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -51,22 +51,20 @@ namespace Quasar.Server.Forms
             this.refreshToolStripMenuItem,
             this.closeConnectionToolStripMenuItem});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(169, 48);
+            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             // 
             // refreshToolStripMenuItem
             // 
             this.refreshToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.refresh;
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
-            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.refreshToolStripMenuItem.Text = "Refresh";
+            resources.ApplyResources(this.refreshToolStripMenuItem, "refreshToolStripMenuItem");
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // closeConnectionToolStripMenuItem
             // 
             this.closeConnectionToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.uac_shield;
             this.closeConnectionToolStripMenuItem.Name = "closeConnectionToolStripMenuItem";
-            this.closeConnectionToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.closeConnectionToolStripMenuItem.Text = "Close Connection";
+            resources.ApplyResources(this.closeConnectionToolStripMenuItem, "closeConnectionToolStripMenuItem");
             this.closeConnectionToolStripMenuItem.Click += new System.EventHandler(this.closeConnectionToolStripMenuItem_Click);
             // 
             // lstConnections
@@ -79,56 +77,42 @@ namespace Quasar.Server.Forms
             this.columnHeader5,
             this.columnHeader6});
             this.lstConnections.ContextMenuStrip = this.contextMenuStrip;
-            this.lstConnections.Dock = System.Windows.Forms.DockStyle.Fill;
+            resources.ApplyResources(this.lstConnections, "lstConnections");
             this.lstConnections.FullRowSelect = true;
-            this.lstConnections.Location = new System.Drawing.Point(0, 0);
             this.lstConnections.Name = "lstConnections";
-            this.lstConnections.Size = new System.Drawing.Size(703, 421);
-            this.lstConnections.TabIndex = 0;
             this.lstConnections.UseCompatibleStateImageBehavior = false;
             this.lstConnections.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Process";
-            this.columnHeader1.Width = 179;
+            resources.ApplyResources(this.columnHeader1, "columnHeader1");
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Local Address";
-            this.columnHeader2.Width = 95;
+            resources.ApplyResources(this.columnHeader2, "columnHeader2");
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Local Port";
-            this.columnHeader3.Width = 75;
+            resources.ApplyResources(this.columnHeader3, "columnHeader3");
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Remote Address";
-            this.columnHeader4.Width = 95;
+            resources.ApplyResources(this.columnHeader4, "columnHeader4");
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "Remote Port";
-            this.columnHeader5.Width = 75;
+            resources.ApplyResources(this.columnHeader5, "columnHeader5");
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "State";
-            this.columnHeader6.Width = 85;
+            resources.ApplyResources(this.columnHeader6, "columnHeader6");
             // 
             // FrmConnections
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(703, 421);
             this.Controls.Add(this.lstConnections);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmConnections";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Connections []";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmConnections_FormClosing);
             this.Load += new System.EventHandler(this.FrmConnections_Load);
             this.contextMenuStrip.ResumeLayout(false);
