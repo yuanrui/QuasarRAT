@@ -370,6 +370,9 @@
     <EmbeddedResource Include="Forms\FrmSettings.zh-Hans.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmShowMessagebox.zh-Hans.resx">
+      <DependentUpon>FrmShowMessagebox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmStartupAdd.resx">
       <DependentUpon>FrmStartupAdd.cs</DependentUpon>
     </EmbeddedResource>
@@ -425,6 +428,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmShowMessagebox.resx">
       <DependentUpon>FrmShowMessagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmStartupAdd.zh-Hans.resx">
+      <DependentUpon>FrmStartupAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmStartupManager.resx">
       <DependentUpon>FrmStartupManager.cs</DependentUpon>
