@@ -117,126 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;lblPath.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;chkRunHidden.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPath.Name" xml:space="preserve">
-    <value>txtPath</value>
-  </data>
-  <data name="&gt;&gt;chkRunHidden.Name" xml:space="preserve">
-    <value>chkRunHidden</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 6</value>
-  </data>
-  <data name="&gt;&gt;btnBrowse.Name" xml:space="preserve">
-    <value>btnBrowse</value>
-  </data>
-  <data name="chkRunHidden.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 17</value>
-  </data>
-  <data name="btnUploadAndExecute.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <data name="txtPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>333, 22</value>
-  </data>
-  <data name="&gt;&gt;btnUploadAndExecute.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>396, 72</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmUploadAndExecute</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Upload &amp; Execute []</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblPath.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtPath.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnUploadAndExecute.Name" xml:space="preserve">
-    <value>btnUploadAndExecute</value>
-  </data>
-  <data name="&gt;&gt;btnBrowse.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="chkRunHidden.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="&gt;&gt;lblPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkRunHidden.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="txtPath.MaxLength" type="System.Int32, mscorlib">
-    <value>300</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;lblPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="chkRunHidden.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblPath.Name" xml:space="preserve">
-    <value>lblPath</value>
-  </data>
-  <data name="lblPath.Text" xml:space="preserve">
-    <value>Path:</value>
-  </data>
-  <data name="btnUploadAndExecute.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 37</value>
-  </data>
-  <data name="btnBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 37</value>
-  </data>
-  <data name="&gt;&gt;btnBrowse.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBrowse.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnBrowse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 23</value>
-  </data>
-  <data name="btnUploadAndExecute.Text" xml:space="preserve">
-    <value>Upload &amp;&amp; Execute</value>
-  </data>
-  <data name="lblPath.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
-  </data>
-  <data name="&gt;&gt;txtPath.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnBrowse.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnUploadAndExecute.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAQAEBAAAAAAIABoBAAARgAAACAgAAAAACAAqBAAAK4EAAAwMAAAAAAgAKglAABWFQAAQEAAAAAA
@@ -775,34 +656,31 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
-  <data name="&gt;&gt;txtPath.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>远程桌面 []</value>
   </data>
-  <data name="chkRunHidden.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 41</value>
+  <data name="btnHide.Text" xml:space="preserve">
+    <value>隐藏</value>
   </data>
-  <data name="&gt;&gt;btnUploadAndExecute.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="btnKeyboard.ToolTip" xml:space="preserve">
+    <value>启用键盘输入</value>
   </data>
-  <data name="&gt;&gt;txtPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnMouse.ToolTip" xml:space="preserve">
+    <value>启用鼠标输入</value>
   </data>
-  <data name="chkRunHidden.Text" xml:space="preserve">
-    <value>Run file hidden</value>
+  <data name="btnShow.Text" xml:space="preserve">
+    <value>显示</value>
   </data>
-  <data name="btnUploadAndExecute.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>启动</value>
   </data>
-  <data name="btnBrowse.Text" xml:space="preserve">
-    <value>Browse...</value>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>停止</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>96, 96</value>
+  <data name="lblQuality.Text" xml:space="preserve">
+    <value>质量:</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
-  </data>
-  <data name="&gt;&gt;chkRunHidden.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lblQualityShow.Text" xml:space="preserve">
+    <value>75 (高)</value>
   </data>
 </root>

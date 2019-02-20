@@ -35,7 +35,7 @@ namespace Quasar.Server.Forms
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addEntryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removeEntryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lstStartupItems = new AeroListView();
+            this.lstStartupItems = new Quasar.Server.Controls.AeroListView();
             this.hName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hPath = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.contextMenuStrip.SuspendLayout();
@@ -47,13 +47,13 @@ namespace Quasar.Server.Forms
             this.addEntryToolStripMenuItem,
             this.removeEntryToolStripMenuItem});
             this.contextMenuStrip.Name = "ctxtMenu";
-            this.contextMenuStrip.Size = new System.Drawing.Size(153, 70);
+            this.contextMenuStrip.Size = new System.Drawing.Size(157, 48);
             // 
             // addEntryToolStripMenuItem
             // 
             this.addEntryToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.application_add;
             this.addEntryToolStripMenuItem.Name = "addEntryToolStripMenuItem";
-            this.addEntryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addEntryToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.addEntryToolStripMenuItem.Text = "Add Entry";
             this.addEntryToolStripMenuItem.Click += new System.EventHandler(this.addEntryToolStripMenuItem_Click);
             // 
@@ -61,7 +61,7 @@ namespace Quasar.Server.Forms
             // 
             this.removeEntryToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.application_delete;
             this.removeEntryToolStripMenuItem.Name = "removeEntryToolStripMenuItem";
-            this.removeEntryToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.removeEntryToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.removeEntryToolStripMenuItem.Text = "Remove Entry";
             this.removeEntryToolStripMenuItem.Click += new System.EventHandler(this.removeEntryToolStripMenuItem_Click);
             // 
@@ -99,7 +99,7 @@ namespace Quasar.Server.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(677, 373);
             this.Controls.Add(this.lstStartupItems);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(650, 400);
             this.Name = "FrmStartupManager";

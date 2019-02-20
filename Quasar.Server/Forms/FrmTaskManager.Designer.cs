@@ -38,7 +38,7 @@ namespace Quasar.Server.Forms
             this.lineToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.lstTasks = new AeroListView();
+            this.lstTasks = new Quasar.Server.Controls.AeroListView();
             this.hProcessname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hPID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.hTitle = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -57,13 +57,13 @@ namespace Quasar.Server.Forms
             this.lineToolStripMenuItem,
             this.refreshToolStripMenuItem});
             this.contextMenuStrip.Name = "ctxtMenu";
-            this.contextMenuStrip.Size = new System.Drawing.Size(142, 76);
+            this.contextMenuStrip.Size = new System.Drawing.Size(153, 76);
             // 
             // killProcessToolStripMenuItem
             // 
             this.killProcessToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.cancel;
             this.killProcessToolStripMenuItem.Name = "killProcessToolStripMenuItem";
-            this.killProcessToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.killProcessToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.killProcessToolStripMenuItem.Text = "Kill Process";
             this.killProcessToolStripMenuItem.Click += new System.EventHandler(this.killProcessToolStripMenuItem_Click);
             // 
@@ -71,20 +71,20 @@ namespace Quasar.Server.Forms
             // 
             this.startProcessToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.application_go;
             this.startProcessToolStripMenuItem.Name = "startProcessToolStripMenuItem";
-            this.startProcessToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.startProcessToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.startProcessToolStripMenuItem.Text = "Start Process";
             this.startProcessToolStripMenuItem.Click += new System.EventHandler(this.startProcessToolStripMenuItem_Click);
             // 
             // lineToolStripMenuItem
             // 
             this.lineToolStripMenuItem.Name = "lineToolStripMenuItem";
-            this.lineToolStripMenuItem.Size = new System.Drawing.Size(138, 6);
+            this.lineToolStripMenuItem.Size = new System.Drawing.Size(149, 6);
             // 
             // refreshToolStripMenuItem
             // 
             this.refreshToolStripMenuItem.Image = global::Quasar.Server.Properties.Resources.refresh;
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
-            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.refreshToolStripMenuItem.Text = "Refresh";
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
@@ -148,7 +148,7 @@ namespace Quasar.Server.Forms
             // processesToolStripStatusLabel
             // 
             this.processesToolStripStatusLabel.Name = "processesToolStripStatusLabel";
-            this.processesToolStripStatusLabel.Size = new System.Drawing.Size(70, 17);
+            this.processesToolStripStatusLabel.Size = new System.Drawing.Size(80, 17);
             this.processesToolStripStatusLabel.Text = "Processes: 0";
             // 
             // FrmTaskManager
@@ -157,7 +157,7 @@ namespace Quasar.Server.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(821, 493);
             this.Controls.Add(this.tableLayoutPanel);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(351, 449);
             this.Name = "FrmTaskManager";

@@ -364,6 +364,9 @@
     <EmbeddedResource Include="Forms\FrmRegValueEditWord.zh-Hans.resx">
       <DependentUpon>FrmRegValueEditWord.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRemoteDesktop.zh-Hans.resx">
+      <DependentUpon>FrmRemoteDesktop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmReverseProxy.zh-Hans.resx">
       <DependentUpon>FrmReverseProxy.cs</DependentUpon>
     </EmbeddedResource>
@@ -435,13 +438,28 @@
     <EmbeddedResource Include="Forms\FrmStartupManager.resx">
       <DependentUpon>FrmStartupManager.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmStartupManager.zh-Hans.resx">
+      <DependentUpon>FrmStartupManager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmSystemInformation.resx">
+      <DependentUpon>FrmSystemInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSystemInformation.zh-Hans.resx">
       <DependentUpon>FrmSystemInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmTaskManager.resx">
       <DependentUpon>FrmTaskManager.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTaskManager.zh-Hans.resx">
+      <DependentUpon>FrmTaskManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmUpdate.zh-Hans.resx">
+      <DependentUpon>FrmUpdate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmUploadAndExecute.resx">
+      <DependentUpon>FrmUploadAndExecute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmUploadAndExecute.zh-Hans.resx">
       <DependentUpon>FrmUploadAndExecute.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmVisitWebsite.resx">
@@ -449,6 +467,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmUpdate.resx">
       <DependentUpon>FrmUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmVisitWebsite.zh-Hans.resx">
+      <DependentUpon>FrmVisitWebsite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

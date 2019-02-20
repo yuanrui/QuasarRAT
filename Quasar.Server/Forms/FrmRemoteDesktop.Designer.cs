@@ -44,7 +44,7 @@ namespace Quasar.Server.Forms
             this.btnHide = new System.Windows.Forms.Button();
             this.btnShow = new System.Windows.Forms.Button();
             this.toolTipButtons = new System.Windows.Forms.ToolTip(this.components);
-            this.picDesktop = new RapidPictureBox();
+            this.picDesktop = new Quasar.Server.Controls.RapidPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.barQuality)).BeginInit();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDesktop)).BeginInit();
@@ -90,7 +90,7 @@ namespace Quasar.Server.Forms
             this.lblQuality.AutoSize = true;
             this.lblQuality.Location = new System.Drawing.Point(167, 5);
             this.lblQuality.Name = "lblQuality";
-            this.lblQuality.Size = new System.Drawing.Size(46, 13);
+            this.lblQuality.Size = new System.Drawing.Size(47, 13);
             this.lblQuality.TabIndex = 4;
             this.lblQuality.Text = "Quality:";
             // 
@@ -203,7 +203,7 @@ namespace Quasar.Server.Forms
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.picDesktop);
-            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MinimumSize = new System.Drawing.Size(640, 480);
